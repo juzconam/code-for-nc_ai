@@ -1,0 +1,632 @@
+{
+  "program": "run_piv_uncertainty_study",
+  "split": "test",
+  "split_sha256": "08f9eda52083d4fe8ae6dd498913620b513bafa3ea3a8f8a0a2d06dc9a624559",
+  "data_path": "D:\\newpiv\\sample_data",
+  "split_manifest": "F:\\natcom\\splits\\class1_primary_split_v2.json",
+  "backbone_checkpoint": "F:\\natcom\\piv_runs\\residual_ddpm_v6_x0_seed3407\\diffusion_backbone_best.pth",
+  "agent_checkpoint": "F:\\natcom\\piv_runs\\physics_unrolled_v3_warmup_scratch_20ep_seed3417\\physics_agent_best.pth",
+  "agent_config": {
+    "unroll_steps": 3,
+    "observation_step_rms": 0.05,
+    "hodge_step_rms": 0.05,
+    "particle_sigma": 1.0,
+    "energy_temperature": 0.02,
+    "boundary_width": 8
+  },
+  "candidates": 10,
+  "k_grid": [
+    1,
+    5,
+    10
+  ],
+  "sampling_steps": 10,
+  "arms": [
+    {
+      "name": "pre",
+      "agent": false,
+      "intervention": "full",
+      "hodge_scale": 1.0
+    },
+    {
+      "name": "hodge0.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 0.0
+    },
+    {
+      "name": "hodge0.25",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 0.25
+    },
+    {
+      "name": "hodge0.50",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 0.5
+    },
+    {
+      "name": "hodge1.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 1.0
+    },
+    {
+      "name": "hodge2.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 2.0
+    },
+    {
+      "name": "hodge4.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 4.0
+    },
+    {
+      "name": "hodge_only",
+      "agent": true,
+      "intervention": "hodge_only",
+      "hodge_scale": 1.0
+    },
+    {
+      "name": "observation_only",
+      "agent": true,
+      "intervention": "observation_only",
+      "hodge_scale": 1.0
+    }
+  ],
+  "quantities": [
+    "mean_speed",
+    "kinetic_energy_proxy",
+    "circulation",
+    "enstrophy",
+    "continuity_rms",
+    "mean_strain_rate"
+  ],
+  "deterministic_initial_noise": true,
+  "seed": 3407,
+  "mc_draws": 32,
+  "sample_count": 1065,
+  "domain_counts": {
+    "DNS_turbulence": 200,
+    "JHTDB_channel": 190,
+    "SQG": 150,
+    "backstep": 320,
+    "cylinder": 205
+  },
+  "merged_shards": 67,
+  "arrays": {
+    "uid": [
+      1065
+    ],
+    "domain": [
+      1065
+    ],
+    "index": [
+      1065
+    ],
+    "q_truth": [
+      1065,
+      6
+    ],
+    "q_cand__pre": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__pre": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__pre": [
+      1065,
+      3,
+      6
+    ],
+    "q05__pre": [
+      1065,
+      6
+    ],
+    "q95__pre": [
+      1065,
+      6
+    ],
+    "epe__pre": [
+      1065
+    ],
+    "delta__pre": [
+      1065
+    ],
+    "max_vort_pre": [
+      1065
+    ],
+    "accept__pre": [
+      1065
+    ],
+    "hodge_dir__pre": [
+      1065
+    ],
+    "div__pre": [
+      1065
+    ],
+    "sigpix__pre": [
+      1065
+    ],
+    "unb__pre": [
+      1065
+    ],
+    "une__pre": [
+      1065
+    ],
+    "unerms__pre": [
+      1065
+    ],
+    "mc_std__pre__photometric": [
+      1065,
+      6
+    ],
+    "mc_q05__pre__photometric": [
+      1065,
+      6
+    ],
+    "mc_q95__pre__photometric": [
+      1065,
+      6
+    ],
+    "mc_mean__pre__photometric": [
+      1065,
+      6
+    ],
+    "mc_std__pre__candidate": [
+      1065,
+      6
+    ],
+    "mc_q05__pre__candidate": [
+      1065,
+      6
+    ],
+    "mc_q95__pre__candidate": [
+      1065,
+      6
+    ],
+    "mc_mean__pre__candidate": [
+      1065,
+      6
+    ],
+    "q_cand__hodge0.00": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge0.00": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge0.00": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge0.00": [
+      1065,
+      6
+    ],
+    "q95__hodge0.00": [
+      1065,
+      6
+    ],
+    "epe__hodge0.00": [
+      1065
+    ],
+    "delta__hodge0.00": [
+      1065
+    ],
+    "accept__hodge0.00": [
+      10650
+    ],
+    "hodge_dir__hodge0.00": [
+      10650
+    ],
+    "div__hodge0.00": [
+      1065
+    ],
+    "sigpix__hodge0.00": [
+      1065
+    ],
+    "unb__hodge0.00": [
+      1065
+    ],
+    "une__hodge0.00": [
+      1065
+    ],
+    "unerms__hodge0.00": [
+      1065
+    ],
+    "q_cand__hodge0.25": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge0.25": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge0.25": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge0.25": [
+      1065,
+      6
+    ],
+    "q95__hodge0.25": [
+      1065,
+      6
+    ],
+    "epe__hodge0.25": [
+      1065
+    ],
+    "delta__hodge0.25": [
+      1065
+    ],
+    "accept__hodge0.25": [
+      10650
+    ],
+    "hodge_dir__hodge0.25": [
+      10650
+    ],
+    "div__hodge0.25": [
+      1065
+    ],
+    "sigpix__hodge0.25": [
+      1065
+    ],
+    "unb__hodge0.25": [
+      1065
+    ],
+    "une__hodge0.25": [
+      1065
+    ],
+    "unerms__hodge0.25": [
+      1065
+    ],
+    "q_cand__hodge0.50": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge0.50": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge0.50": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge0.50": [
+      1065,
+      6
+    ],
+    "q95__hodge0.50": [
+      1065,
+      6
+    ],
+    "epe__hodge0.50": [
+      1065
+    ],
+    "delta__hodge0.50": [
+      1065
+    ],
+    "accept__hodge0.50": [
+      10650
+    ],
+    "hodge_dir__hodge0.50": [
+      10650
+    ],
+    "div__hodge0.50": [
+      1065
+    ],
+    "sigpix__hodge0.50": [
+      1065
+    ],
+    "unb__hodge0.50": [
+      1065
+    ],
+    "une__hodge0.50": [
+      1065
+    ],
+    "unerms__hodge0.50": [
+      1065
+    ],
+    "q_cand__hodge1.00": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge1.00": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge1.00": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge1.00": [
+      1065,
+      6
+    ],
+    "q95__hodge1.00": [
+      1065,
+      6
+    ],
+    "epe__hodge1.00": [
+      1065
+    ],
+    "delta__hodge1.00": [
+      1065
+    ],
+    "accept__hodge1.00": [
+      10650
+    ],
+    "hodge_dir__hodge1.00": [
+      10650
+    ],
+    "div__hodge1.00": [
+      1065
+    ],
+    "sigpix__hodge1.00": [
+      1065
+    ],
+    "unb__hodge1.00": [
+      1065
+    ],
+    "une__hodge1.00": [
+      1065
+    ],
+    "unerms__hodge1.00": [
+      1065
+    ],
+    "mc_std__hodge1.00__photometric": [
+      1065,
+      6
+    ],
+    "mc_q05__hodge1.00__photometric": [
+      1065,
+      6
+    ],
+    "mc_q95__hodge1.00__photometric": [
+      1065,
+      6
+    ],
+    "mc_mean__hodge1.00__photometric": [
+      1065,
+      6
+    ],
+    "mc_std__hodge1.00__candidate": [
+      1065,
+      6
+    ],
+    "mc_q05__hodge1.00__candidate": [
+      1065,
+      6
+    ],
+    "mc_q95__hodge1.00__candidate": [
+      1065,
+      6
+    ],
+    "mc_mean__hodge1.00__candidate": [
+      1065,
+      6
+    ],
+    "q_cand__hodge2.00": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge2.00": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge2.00": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge2.00": [
+      1065,
+      6
+    ],
+    "q95__hodge2.00": [
+      1065,
+      6
+    ],
+    "epe__hodge2.00": [
+      1065
+    ],
+    "delta__hodge2.00": [
+      1065
+    ],
+    "accept__hodge2.00": [
+      10650
+    ],
+    "hodge_dir__hodge2.00": [
+      10650
+    ],
+    "div__hodge2.00": [
+      1065
+    ],
+    "sigpix__hodge2.00": [
+      1065
+    ],
+    "unb__hodge2.00": [
+      1065
+    ],
+    "une__hodge2.00": [
+      1065
+    ],
+    "unerms__hodge2.00": [
+      1065
+    ],
+    "q_cand__hodge4.00": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge4.00": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge4.00": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge4.00": [
+      1065,
+      6
+    ],
+    "q95__hodge4.00": [
+      1065,
+      6
+    ],
+    "epe__hodge4.00": [
+      1065
+    ],
+    "delta__hodge4.00": [
+      1065
+    ],
+    "accept__hodge4.00": [
+      10650
+    ],
+    "hodge_dir__hodge4.00": [
+      10650
+    ],
+    "div__hodge4.00": [
+      1065
+    ],
+    "sigpix__hodge4.00": [
+      1065
+    ],
+    "unb__hodge4.00": [
+      1065
+    ],
+    "une__hodge4.00": [
+      1065
+    ],
+    "unerms__hodge4.00": [
+      1065
+    ],
+    "q_cand__hodge_only": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__hodge_only": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__hodge_only": [
+      1065,
+      3,
+      6
+    ],
+    "q05__hodge_only": [
+      1065,
+      6
+    ],
+    "q95__hodge_only": [
+      1065,
+      6
+    ],
+    "epe__hodge_only": [
+      1065
+    ],
+    "delta__hodge_only": [
+      1065
+    ],
+    "accept__hodge_only": [
+      10650
+    ],
+    "hodge_dir__hodge_only": [
+      10650
+    ],
+    "div__hodge_only": [
+      1065
+    ],
+    "sigpix__hodge_only": [
+      1065
+    ],
+    "unb__hodge_only": [
+      1065
+    ],
+    "une__hodge_only": [
+      1065
+    ],
+    "unerms__hodge_only": [
+      1065
+    ],
+    "q_cand__observation_only": [
+      1065,
+      10,
+      6
+    ],
+    "q_point__observation_only": [
+      1065,
+      3,
+      6
+    ],
+    "sigma__observation_only": [
+      1065,
+      3,
+      6
+    ],
+    "q05__observation_only": [
+      1065,
+      6
+    ],
+    "q95__observation_only": [
+      1065,
+      6
+    ],
+    "epe__observation_only": [
+      1065
+    ],
+    "delta__observation_only": [
+      1065
+    ],
+    "accept__observation_only": [
+      10650
+    ],
+    "hodge_dir__observation_only": [
+      10650
+    ],
+    "div__observation_only": [
+      1065
+    ],
+    "sigpix__observation_only": [
+      1065
+    ],
+    "unb__observation_only": [
+      1065
+    ],
+    "une__observation_only": [
+      1065
+    ],
+    "unerms__observation_only": [
+      1065
+    ]
+  }
+}

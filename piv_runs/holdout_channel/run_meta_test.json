@@ -1,0 +1,96 @@
+{
+  "program": "run_piv_uncertainty_study",
+  "split": "test",
+  "split_sha256": "7cbbe0ed1f84a509543dc5babd633e72c0b514bae3eeebe6c029b3ad1419691d",
+  "data_path": "F:\\natcom\\external\\holdout_JHTDB_channel_hd",
+  "split_manifest": "F:\\natcom\\external\\holdout\\holdout_manifest_JHTDB_channel_hd.json",
+  "backbone_checkpoint": "F:\\natcom\\piv_runs\\residual_ddpm_v6_x0_seed3407\\diffusion_backbone_best.pth",
+  "agent_checkpoint": "F:\\natcom\\piv_runs\\physics_unrolled_v3_warmup_scratch_20ep_seed3417\\physics_agent_best.pth",
+  "agent_config": {
+    "unroll_steps": 3,
+    "observation_step_rms": 0.05,
+    "hodge_step_rms": 0.05,
+    "particle_sigma": 1.0,
+    "energy_temperature": 0.02,
+    "boundary_width": 8
+  },
+  "candidates": 10,
+  "k_grid": [
+    1,
+    5,
+    10
+  ],
+  "sampling_steps": 10,
+  "arms": [
+    {
+      "name": "pre",
+      "agent": false,
+      "intervention": "full",
+      "hodge_scale": 1.0
+    },
+    {
+      "name": "hodge0.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 0.0
+    },
+    {
+      "name": "hodge0.25",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 0.25
+    },
+    {
+      "name": "hodge0.50",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 0.5
+    },
+    {
+      "name": "hodge1.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 1.0
+    },
+    {
+      "name": "hodge2.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 2.0
+    },
+    {
+      "name": "hodge4.00",
+      "agent": true,
+      "intervention": "full",
+      "hodge_scale": 4.0
+    },
+    {
+      "name": "hodge_only",
+      "agent": true,
+      "intervention": "hodge_only",
+      "hodge_scale": 1.0
+    },
+    {
+      "name": "observation_only",
+      "agent": true,
+      "intervention": "observation_only",
+      "hodge_scale": 1.0
+    }
+  ],
+  "quantities": [
+    "mean_speed",
+    "kinetic_energy_proxy",
+    "circulation",
+    "enstrophy",
+    "continuity_rms",
+    "mean_strain_rate"
+  ],
+  "deterministic_initial_noise": true,
+  "seed": 3407,
+  "mc_draws": 32,
+  "sample_count": 240,
+  "stride": 1,
+  "domain_counts": {
+    "JHTDB_channel_hd": 240
+  }
+}

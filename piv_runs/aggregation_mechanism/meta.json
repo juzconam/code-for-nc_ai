@@ -1,0 +1,9 @@
+{
+  "program": "run_aggregation_mechanism_study",
+  "split": "test",
+  "split_sha256": "08f9eda52083d4fe8ae6dd498913620b513bafa3ea3a8f8a0a2d06dc9a624559",
+  "candidates": 10,
+  "stride": 5,
+  "samples": 213,
+  "identity": "div(sum_k w_k u_k) = sum_k w_k div(u_k) + sum_k u_k . grad(w_k)"
+}

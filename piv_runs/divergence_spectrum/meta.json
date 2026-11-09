@@ -1,0 +1,10 @@
+{
+  "program": "run_divergence_spectrum_study",
+  "split": "test",
+  "split_sha256": "08f9eda52083d4fe8ae6dd498913620b513bafa3ea3a8f8a0a2d06dc9a624559",
+  "candidates": 4,
+  "bands": 16,
+  "border_pixels": 16,
+  "samples": 428,
+  "note": "band-by-band candidate/truth ratios are free of the central-difference response"
+}

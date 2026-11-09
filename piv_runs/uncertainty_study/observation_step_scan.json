@@ -1,0 +1,161 @@
+{
+  "program": "probe_observation_step_scale",
+  "split": "test",
+  "split_sha256": "08f9eda52083d4fe8ae6dd498913620b513bafa3ea3a8f8a0a2d06dc9a624559",
+  "samples": 120,
+  "candidates": 4,
+  "sampling_steps": 10,
+  "deterministic_initial_noise": true,
+  "interventions": {
+    "observation_only": [
+      {
+        "scale": 1.0,
+        "observation_gain": 0.004676758249600729,
+        "divergence_change": -0.002120592181260387,
+        "acceptance_rate": 0.0,
+        "proposal_delta_rms": 0.009439500917991003,
+        "realized_delta_rms": 0.0
+      },
+      {
+        "scale": 0.5,
+        "observation_gain": 0.003938825925191244,
+        "divergence_change": -0.00034102314772705236,
+        "acceptance_rate": 0.041666666666666664,
+        "proposal_delta_rms": 0.004719750458995501,
+        "realized_delta_rms": 9.133592830039561e-05
+      },
+      {
+        "scale": 0.25,
+        "observation_gain": 0.0025871713956197103,
+        "divergence_change": 2.584668497244517e-05,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.0023598752294977507,
+        "realized_delta_rms": 0.0013481003077079853
+      },
+      {
+        "scale": 0.125,
+        "observation_gain": 0.0014561007420221964,
+        "divergence_change": 6.265599901477496e-05,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.0011799376147488753,
+        "realized_delta_rms": 0.0006740501693760355
+      },
+      {
+        "scale": 0.0625,
+        "observation_gain": 0.0007593035697937012,
+        "divergence_change": 4.3729281363387905e-05,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.0005899688073744377,
+        "realized_delta_rms": 0.00033702507886725167
+      },
+      {
+        "scale": 0.03125,
+        "observation_gain": 0.0003839701414108276,
+        "divergence_change": 2.4953864825268588e-05,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.00029498440368721883,
+        "realized_delta_rms": 0.0001685125471946473
+      }
+    ],
+    "full": [
+      {
+        "scale": 1.0,
+        "observation_gain": 0.0027521411577860516,
+        "divergence_change": 0.003726786049082875,
+        "acceptance_rate": 0.875,
+        "proposal_delta_rms": 0.027424480766057968,
+        "realized_delta_rms": 0.016861903046568236
+      },
+      {
+        "scale": 0.5,
+        "observation_gain": 0.003407848874727885,
+        "divergence_change": 0.004594773643960556,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.013712240383028984,
+        "realized_delta_rms": 0.009586008513967197
+      },
+      {
+        "scale": 0.25,
+        "observation_gain": 0.0025665824611981708,
+        "divergence_change": 0.002782278290639321,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.006856120191514492,
+        "realized_delta_rms": 0.004793004288027684
+      },
+      {
+        "scale": 0.125,
+        "observation_gain": 0.0015211567282676698,
+        "divergence_change": 0.001482155096406738,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.003428060095757246,
+        "realized_delta_rms": 0.002396502112969756
+      },
+      {
+        "scale": 0.0625,
+        "observation_gain": 0.0008098656932512919,
+        "divergence_change": 0.0007606586829448739,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.001714030047878623,
+        "realized_delta_rms": 0.001198251056484878
+      },
+      {
+        "scale": 0.03125,
+        "observation_gain": 0.0004128163059552511,
+        "divergence_change": 0.0003848722049345573,
+        "acceptance_rate": 1.0,
+        "proposal_delta_rms": 0.0008570150239393115,
+        "realized_delta_rms": 0.0005991255360034605
+      }
+    ],
+    "hodge_only": [
+      {
+        "scale": 1.0,
+        "observation_gain": -2.1614134311676025e-05,
+        "divergence_change": 0.008121197391301394,
+        "acceptance_rate": 0.49166666666666664,
+        "proposal_delta_rms": 0.024808089559276898,
+        "realized_delta_rms": 0.008758552962293227
+      },
+      {
+        "scale": 0.5,
+        "observation_gain": 0.00021929790576299032,
+        "divergence_change": 0.00528200687840581,
+        "acceptance_rate": 0.775,
+        "proposal_delta_rms": 0.012404044779638449,
+        "realized_delta_rms": 0.007135646604001522
+      },
+      {
+        "scale": 0.25,
+        "observation_gain": 0.00018266638120015462,
+        "divergence_change": 0.0027908625702063243,
+        "acceptance_rate": 0.875,
+        "proposal_delta_rms": 0.006202022389819224,
+        "realized_delta_rms": 0.003977624590819081
+      },
+      {
+        "scale": 0.125,
+        "observation_gain": 0.00011011958122253418,
+        "divergence_change": 0.00142244187494119,
+        "acceptance_rate": 0.9083333333333333,
+        "proposal_delta_rms": 0.003101011194909612,
+        "realized_delta_rms": 0.0020633166733508308
+      },
+      {
+        "scale": 0.0625,
+        "observation_gain": 5.972335735956828e-05,
+        "divergence_change": 0.0007170355801160137,
+        "acceptance_rate": 0.9166666666666666,
+        "proposal_delta_rms": 0.001550505597454806,
+        "realized_delta_rms": 0.0010390546987764538
+      },
+      {
+        "scale": 0.03125,
+        "observation_gain": 3.0866762002309164e-05,
+        "divergence_change": 0.00035987121518701317,
+        "acceptance_rate": 0.9166666666666666,
+        "proposal_delta_rms": 0.000775252798727403,
+        "realized_delta_rms": 0.0005195273571492483
+      }
+    ]
+  }
+}
