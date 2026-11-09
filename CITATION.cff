@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Better reconstructions can mean worse error bars in physics-informed field reconstruction"
+message: "If you use this code or the derived records, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: "<AUTHOR_1_FAMILY>"
+    given-names: "<AUTHOR_1_GIVEN>"
+  - family-names: "<AUTHOR_2_FAMILY>"
+    given-names: "<AUTHOR_2_GIVEN>"
+repository-code: "https://github.com/<ORG>/<REPO>"
+url: "https://doi.org/<ZENODO_DOI>"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-07
+abstract: >-
+  Analysis code and derived per-sample records for the manuscript on
+  candidate-spread uncertainty in physics-informed generative field
+  reconstruction. The archive reproduces the width-ratio, coverage, paired
+  intervention, permutation and held-out-domain analyses without retraining;
+  the full training/inference entry points are included for provenance.

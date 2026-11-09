@@ -1,0 +1,2175 @@
+{
+  "schema_version": "holdout-1",
+  "split_protocol": "held-out domain, never used in training, validation or model selection",
+  "split_seed": 0,
+  "test_size": 240,
+  "ratio": {
+    "train": 0.0,
+    "validation": 0.0,
+    "test": 1.0
+  },
+  "purge_gap": 0,
+  "samples": [
+    {
+      "index": 0,
+      "sample_uid": "b6821977ba86c16442279d7d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00001_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00001_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00001_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 1,
+      "sample_uid": "013db2119b2b4d02766da5b9",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00002_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00002_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00002_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 2,
+      "sample_uid": "3c5c4ea5f3f41808f6f8469e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00003_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00003_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00003_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 3,
+      "sample_uid": "86861c70e74672473b349332",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00004_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00004_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00004_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 4,
+      "sample_uid": "d1f4987dcce60d18ea889bc0",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00005_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00005_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00005_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 5,
+      "sample_uid": "5bee1bc2c41b5ea1728b5541",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00006_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00006_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00006_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 6,
+      "sample_uid": "3c860ff5daa9b7afeabda200",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00007_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00007_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00007_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 7,
+      "sample_uid": "9252665d824fca9b4823f73d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00008_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00008_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00008_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 8,
+      "sample_uid": "aa70fb2465e3d992c520d015",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00009_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00009_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00009_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 9,
+      "sample_uid": "00c54012561695a0972bf953",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00010_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00010_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00010_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 10,
+      "sample_uid": "a46a693ac987290989f12557",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00011_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00011_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00011_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 11,
+      "sample_uid": "348edbf79314fa396d1e9f28",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00012_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00012_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00012_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 12,
+      "sample_uid": "d070c4c86f762e5662d1769c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00013_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00013_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00013_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 13,
+      "sample_uid": "82c3cd92a62f3d1d76a60e1e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00014_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00014_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00014_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 14,
+      "sample_uid": "e44ae71aa3cfab4c73eb4556",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00015_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00015_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00015_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 15,
+      "sample_uid": "59a3944a3a227c4f50ed4587",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00016_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00016_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00016_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 16,
+      "sample_uid": "a34a2cc3173dc9cc888e9711",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00017_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00017_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00017_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 17,
+      "sample_uid": "0e3ff781ef4800c1bb434a62",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00018_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00018_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00018_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 18,
+      "sample_uid": "1803ad555c58e01a1bc5b8ee",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00019_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00019_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00019_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 19,
+      "sample_uid": "d9850a0559751eac319f59b6",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00020_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00020_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00020_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 20,
+      "sample_uid": "c04c90cb6951cf647e8906e6",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00021_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00021_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00021_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 21,
+      "sample_uid": "d57a5ffc2bb4dfd8684a497a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00022_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00022_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00022_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 22,
+      "sample_uid": "97993136aea802b1cdc9d9c3",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00023_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00023_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00023_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 23,
+      "sample_uid": "239da40e21fb8ff9802e8044",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00024_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00024_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00024_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 24,
+      "sample_uid": "4eedb31495a4a0fa3f751933",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00025_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00025_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00025_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 25,
+      "sample_uid": "09d07852bdf9ffc47f1cb48c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00026_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00026_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00026_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 26,
+      "sample_uid": "df732f839eb4ed4f96855802",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00027_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00027_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00027_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 27,
+      "sample_uid": "76e09fa0522c633002482878",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00028_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00028_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00028_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 28,
+      "sample_uid": "bc920a18967998e3a7fb653d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00029_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00029_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00029_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 29,
+      "sample_uid": "db2618fc9cfad7cbead75cea",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00030_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00030_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00030_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 30,
+      "sample_uid": "00260d1305085d5d2f54d14b",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00031_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00031_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00031_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 31,
+      "sample_uid": "8bc3055ed2250cd1eddcaa81",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00032_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00032_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00032_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 32,
+      "sample_uid": "72f5fd29eb2288b718ca164a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00033_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00033_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00033_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 33,
+      "sample_uid": "1ddf8c13276013ce7b588e74",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00034_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00034_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00034_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 34,
+      "sample_uid": "343a194beadd120818803739",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00035_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00035_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00035_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 35,
+      "sample_uid": "ca26f665285db2f853e616ec",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00036_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00036_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00036_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 36,
+      "sample_uid": "8181eeaa577bfdfb562325d2",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00037_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00037_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00037_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 37,
+      "sample_uid": "ae9bf331f4f81ff59213e7fc",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00038_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00038_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00038_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 38,
+      "sample_uid": "34e1019e07616ac9960c10d7",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00039_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00039_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00039_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 39,
+      "sample_uid": "8134435c6be2af77b871d4f4",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00040_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00040_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00040_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 40,
+      "sample_uid": "ec16d37abaf4c1b797895a7e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00041_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00041_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00041_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 41,
+      "sample_uid": "60212afadce7037a102d7dff",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00042_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00042_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00042_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 42,
+      "sample_uid": "2b688c74b6be69dbf037c125",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00043_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00043_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00043_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 43,
+      "sample_uid": "9533069f4ce97e29d80b335f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00044_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00044_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00044_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 44,
+      "sample_uid": "bee92aa5d6c9aa23e032fe73",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00045_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00045_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00045_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 45,
+      "sample_uid": "b4fb4baf45964a7c427a68b8",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00046_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00046_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00046_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 46,
+      "sample_uid": "41025c891246b8a0dff11867",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00047_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00047_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00047_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 47,
+      "sample_uid": "81df5db6c1c09babf961e74b",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00048_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00048_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00048_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 48,
+      "sample_uid": "92ebde1547227c34c43a9ddc",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00049_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00049_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00049_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 49,
+      "sample_uid": "e0a9c02b2fd7df0f1629e22d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00050_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00050_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00050_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 50,
+      "sample_uid": "56501397810445a7d88f65f5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00051_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00051_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00051_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 51,
+      "sample_uid": "edad4e57ec42927deccbd718",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00052_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00052_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00052_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 52,
+      "sample_uid": "98a339e0803a99a2d9a9a4cd",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00053_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00053_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00053_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 53,
+      "sample_uid": "09c6831b6cd50849482b664b",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00054_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00054_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00054_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 54,
+      "sample_uid": "2f33b247f9ff40605f9832e1",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00055_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00055_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00055_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 55,
+      "sample_uid": "5c75742dcd864844d90b3e1d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00056_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00056_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00056_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 56,
+      "sample_uid": "b3772d31facc323d463d1b1f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00057_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00057_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00057_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 57,
+      "sample_uid": "9eaa672ed89d4a44609b8a61",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00058_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00058_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00058_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 58,
+      "sample_uid": "a9acf36b703ff14237a4407f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00059_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00059_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00059_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 59,
+      "sample_uid": "d590890f14f99330f6a28f6a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00060_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00060_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00060_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 60,
+      "sample_uid": "3955e84e34303e15850e2241",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00061_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00061_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00061_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 61,
+      "sample_uid": "2094856ec249a78388c486bf",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00062_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00062_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00062_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 62,
+      "sample_uid": "e93fb11943bcc2e94d7a2073",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00063_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00063_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00063_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 63,
+      "sample_uid": "4f49f502bc5e669cf9f2bff3",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00064_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00064_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00064_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 64,
+      "sample_uid": "7f824d04652c20f28cce7102",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00065_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00065_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00065_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 65,
+      "sample_uid": "a3d960ef72d08b4e2beba5a3",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00066_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00066_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00066_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 66,
+      "sample_uid": "e5cc26f974ea9bfb9e898108",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00067_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00067_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00067_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 67,
+      "sample_uid": "17ccc6a019fdc241e5bb949a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00068_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00068_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00068_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 68,
+      "sample_uid": "07e2ff06adc03ea43a6435f7",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00069_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00069_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00069_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 69,
+      "sample_uid": "d6ab428d22dbdb3ad9802ff3",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00070_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00070_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00070_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 70,
+      "sample_uid": "56cc46e52c159d4ee00135cb",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00071_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00071_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00071_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 71,
+      "sample_uid": "2027c6751ade2d3d5ff86748",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00072_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00072_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00072_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 72,
+      "sample_uid": "2f7ab3d9e453a66051b47629",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00073_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00073_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00073_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 73,
+      "sample_uid": "22a88c33ccbec48a88f74fcf",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00074_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00074_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00074_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 74,
+      "sample_uid": "95fbbe55c70bbb1b6898c340",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00075_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00075_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00075_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 75,
+      "sample_uid": "5304fef317d789af71619fcc",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00076_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00076_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00076_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 76,
+      "sample_uid": "460090732ebd3d1e1c5b46e4",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00077_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00077_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00077_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 77,
+      "sample_uid": "756ca2949b9f579a32e05671",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00078_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00078_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00078_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 78,
+      "sample_uid": "0c8a833805815f1667cf41a5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00079_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00079_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00079_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 79,
+      "sample_uid": "7ea3e92d7cfeddd00c0d3435",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00080_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00080_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00080_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 80,
+      "sample_uid": "bacfa0c442afed91c7f2e24d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00081_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00081_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00081_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 81,
+      "sample_uid": "b95cb167d018f847df9334a9",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00082_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00082_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00082_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 82,
+      "sample_uid": "d62394d184ef33b0f4d5aa2d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00083_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00083_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00083_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 83,
+      "sample_uid": "244b67b856ae896c2a17cc1c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00084_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00084_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00084_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 84,
+      "sample_uid": "25478ba26a023368b148cd00",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00085_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00085_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00085_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 85,
+      "sample_uid": "841b1f3b876d0046b411e69b",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00086_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00086_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00086_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 86,
+      "sample_uid": "052b512d393c11704ce808ff",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00087_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00087_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00087_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 87,
+      "sample_uid": "10aaea0da149150b01b285a2",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00088_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00088_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00088_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 88,
+      "sample_uid": "baae7a4389b0e53b1b64f418",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00089_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00089_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00089_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 89,
+      "sample_uid": "472bf6960a36018fba75de56",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00090_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00090_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00090_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 90,
+      "sample_uid": "dafe468d394dcba566abc5b7",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00091_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00091_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00091_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 91,
+      "sample_uid": "cf886514cec760362a8c9c17",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00092_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00092_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00092_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 92,
+      "sample_uid": "1448d622e144b59b49fe2e62",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00093_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00093_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00093_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 93,
+      "sample_uid": "93f04fb73e31388aa23bdf6a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00094_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00094_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00094_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 94,
+      "sample_uid": "7319415a13ead42e1257deee",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00095_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00095_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00095_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 95,
+      "sample_uid": "73fffe6af2876fb2b3efac92",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00096_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00096_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00096_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 96,
+      "sample_uid": "a6e2d54403e384feafa56f13",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00097_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00097_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00097_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 97,
+      "sample_uid": "c1148e9d33ecee34f4583f2d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00098_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00098_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00098_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 98,
+      "sample_uid": "87c1cb8010799d0941604d4e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00099_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00099_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00099_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 99,
+      "sample_uid": "24361c139e5b9e6685f27a43",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00100_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00100_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00100_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 100,
+      "sample_uid": "4fa1de7599485b13a89fa911",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00101_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00101_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00101_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 101,
+      "sample_uid": "15a550d5116a8e1a9c5226e2",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00102_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00102_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00102_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 102,
+      "sample_uid": "3278a0c1de411263fd3fd7a6",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00103_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00103_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00103_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 103,
+      "sample_uid": "ac4fd71ebe18d58bd00aa9b5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00104_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00104_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00104_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 104,
+      "sample_uid": "4c4acf545abbb6068061a0f4",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00105_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00105_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00105_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 105,
+      "sample_uid": "b6b00ecb5c9e13c2d8957706",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00106_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00106_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00106_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 106,
+      "sample_uid": "21b6a94fe777b477cd8448da",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00107_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00107_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00107_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 107,
+      "sample_uid": "f66ea1cb89727a616b0b2c72",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00108_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00108_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00108_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 108,
+      "sample_uid": "2cee0b1375a85b40ee3bd7ff",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00109_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00109_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00109_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 109,
+      "sample_uid": "fb61b3e6afbc32230d703979",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00110_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00110_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00110_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 110,
+      "sample_uid": "e5c214382a934eee937d2aac",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00111_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00111_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00111_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 111,
+      "sample_uid": "aadab9c583f6b9ddc570d93a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00112_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00112_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00112_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 112,
+      "sample_uid": "c88e067382055d113378ad7c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00113_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00113_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00113_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 113,
+      "sample_uid": "2826c88e47887f94aed87e14",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00114_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00114_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00114_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 114,
+      "sample_uid": "8e6713e6f7724ac5c219f11f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00115_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00115_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00115_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 115,
+      "sample_uid": "8bd21de3fb6b96a5092ba443",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00116_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00116_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00116_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 116,
+      "sample_uid": "cde0aec4dc3bbcefb6e2ea85",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00117_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00117_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00117_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 117,
+      "sample_uid": "b786757566b70f45ae493e4f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00118_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00118_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00118_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 118,
+      "sample_uid": "c5c56695417916fffbbbac47",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00119_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00119_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00119_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 119,
+      "sample_uid": "f5bd67579d7f18858592fef5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00120_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00120_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00120_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 120,
+      "sample_uid": "29b9150579264506e3d219fc",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00121_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00121_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00121_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 121,
+      "sample_uid": "dd0bc0a47518a4366074a53a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00122_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00122_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00122_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 122,
+      "sample_uid": "33b45d33decea5d7a54b6d6d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00123_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00123_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00123_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 123,
+      "sample_uid": "af80dfedda65d0322120263c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00124_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00124_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00124_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 124,
+      "sample_uid": "8d6ee98e36be4c14e72035b6",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00125_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00125_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00125_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 125,
+      "sample_uid": "73cb7288ca032b0b50fde9f9",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00126_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00126_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00126_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 126,
+      "sample_uid": "49c78262e91365272f42198b",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00127_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00127_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00127_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 127,
+      "sample_uid": "602633b75d7aae16ac19beff",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00128_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00128_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00128_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 128,
+      "sample_uid": "7766b89fd6d6bd0a1baecd3f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00129_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00129_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00129_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 129,
+      "sample_uid": "8b55e152f2372648368d981f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00130_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00130_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00130_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 130,
+      "sample_uid": "4d7c1327b49b89b8232b99d7",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00131_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00131_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00131_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 131,
+      "sample_uid": "581bfdc616f57ab4d8e661ca",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00132_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00132_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00132_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 132,
+      "sample_uid": "58bb91542c8cd5eca755ee9f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00133_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00133_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00133_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 133,
+      "sample_uid": "9a61ac0e46b35b81d9ccc1f5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00134_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00134_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00134_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 134,
+      "sample_uid": "987150ecd71e83c65b39ec9a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00135_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00135_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00135_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 135,
+      "sample_uid": "cbcde44a107cf88399f5ade2",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00136_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00136_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00136_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 136,
+      "sample_uid": "d861feb4dc31ed0e8524b3ee",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00137_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00137_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00137_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 137,
+      "sample_uid": "b693b2c4860c3bfd81f6bc6f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00138_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00138_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00138_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 138,
+      "sample_uid": "f259c94ae6c259ba5b91d836",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00139_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00139_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00139_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 139,
+      "sample_uid": "d7585d168eeb2dfd58556174",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00140_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00140_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00140_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 140,
+      "sample_uid": "e4a4580687e4981b82b4b3ae",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00141_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00141_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00141_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 141,
+      "sample_uid": "0aad7f2c9389e4ee074e96ba",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00142_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00142_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00142_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 142,
+      "sample_uid": "25c764b2b6099ded7d5aafca",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00143_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00143_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00143_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 143,
+      "sample_uid": "1267b5bd8eb0818a846b1de5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00144_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00144_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00144_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 144,
+      "sample_uid": "2254e27be3d86c0e7135b47d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00145_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00145_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00145_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 145,
+      "sample_uid": "5a666d631d0f09b9f7797981",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00146_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00146_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00146_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 146,
+      "sample_uid": "a3f675076db7a7b6f9c17518",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00147_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00147_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00147_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 147,
+      "sample_uid": "b35a95a023e6cebd4cfb29b9",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00148_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00148_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00148_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 148,
+      "sample_uid": "e0854582c120bd7fee2afe4a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00149_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00149_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00149_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 149,
+      "sample_uid": "3d8b7920f68324262f7a5c65",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00150_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00150_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00150_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 150,
+      "sample_uid": "7c73c539ebac4cf9fdda96ca",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00151_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00151_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00151_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 151,
+      "sample_uid": "1416d1498653dce7aa504561",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00152_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00152_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00152_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 152,
+      "sample_uid": "d85cb4dfc1cbbaae88428798",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00153_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00153_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00153_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 153,
+      "sample_uid": "5fda10fda8933c013aaace19",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00154_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00154_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00154_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 154,
+      "sample_uid": "c582fb19381dcbd8145419d0",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00155_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00155_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00155_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 155,
+      "sample_uid": "232f164bc5ce1105377cbdaa",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00156_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00156_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00156_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 156,
+      "sample_uid": "50933a5f1e112e6b0c423611",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00157_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00157_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00157_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 157,
+      "sample_uid": "7669ce0504d968195db1dcf5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00158_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00158_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00158_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 158,
+      "sample_uid": "256f4596f0548a80fcf4c157",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00159_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00159_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00159_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 159,
+      "sample_uid": "8bd2f58f83c2fe685527d1f8",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00160_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00160_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00160_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 160,
+      "sample_uid": "b0e81927e8a45ee89878966e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00161_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00161_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00161_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 161,
+      "sample_uid": "9b79ec84eaefbb179bfd31cb",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00162_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00162_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00162_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 162,
+      "sample_uid": "d5929efb114887ac8e41c8e6",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00163_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00163_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00163_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 163,
+      "sample_uid": "099e53fcfb0fa1adda863486",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00164_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00164_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00164_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 164,
+      "sample_uid": "b4e4dea6dc145ff2e315fbb3",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00165_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00165_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00165_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 165,
+      "sample_uid": "2d941ae9a1d0690642d8dfb4",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00166_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00166_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00166_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 166,
+      "sample_uid": "5d6fee380b11ca661d71de8c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00167_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00167_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00167_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 167,
+      "sample_uid": "8f8ff96956b254c330760a26",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00168_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00168_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00168_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 168,
+      "sample_uid": "720bb394eff9d83791f5e0a4",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00169_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00169_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00169_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 169,
+      "sample_uid": "5e6796cae5f0b7ab61f96166",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00170_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00170_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00170_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 170,
+      "sample_uid": "656aa36c2cdcaa42473b0cea",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00171_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00171_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00171_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 171,
+      "sample_uid": "86eb16270fbf3379a4968f62",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00172_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00172_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00172_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 172,
+      "sample_uid": "5102578cd948573cb5b2e6ac",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00173_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00173_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00173_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 173,
+      "sample_uid": "60ec385ae416d10d3c79603d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00174_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00174_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00174_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 174,
+      "sample_uid": "30ff9ae1522b267396643e96",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00175_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00175_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00175_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 175,
+      "sample_uid": "ded3f170329a68b7fcb2a8f0",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00176_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00176_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00176_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 176,
+      "sample_uid": "ff8b4996652a15637651a88d",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00177_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00177_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00177_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 177,
+      "sample_uid": "0c0b4d337b70b659e3f6ecbc",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00178_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00178_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00178_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 178,
+      "sample_uid": "eae9c7827c1d679c69c76ae8",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00179_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00179_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00179_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 179,
+      "sample_uid": "2961290daca749d6d2a0a1f3",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00180_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00180_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00180_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 180,
+      "sample_uid": "ddfd3d80cd8f6decb9c3d8e2",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00181_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00181_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00181_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 181,
+      "sample_uid": "e463e52c1ba5db3e9bc3afb0",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00182_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00182_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00182_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 182,
+      "sample_uid": "5b96bd23e53237da6812a09a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00183_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00183_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00183_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 183,
+      "sample_uid": "d0f30b1d3b84cf6deabc4f6e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00184_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00184_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00184_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 184,
+      "sample_uid": "3d96a713976fe2f3ed142816",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00185_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00185_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00185_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 185,
+      "sample_uid": "ed4a537c05a7ede25315e934",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00186_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00186_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00186_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 186,
+      "sample_uid": "566d013f344cd2e09771c749",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00187_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00187_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00187_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 187,
+      "sample_uid": "c7103bb6414e2767fd515307",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00188_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00188_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00188_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 188,
+      "sample_uid": "b21097955dcc89d5f5564a6e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00189_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00189_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00189_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 189,
+      "sample_uid": "247981d76940fd0bb106a658",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00190_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00190_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00190_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 190,
+      "sample_uid": "9bb042a2a127d1c7225d7765",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00191_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00191_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00191_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 191,
+      "sample_uid": "f40fe251ebdd59b91d3a1547",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00192_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00192_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00192_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 192,
+      "sample_uid": "a19932695fe5be4d930fd28e",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00193_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00193_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00193_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 193,
+      "sample_uid": "81e4afa3cd4a9f72aa057a9a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00194_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00194_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00194_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 194,
+      "sample_uid": "00cc6c4d2f16ac57fc030b17",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00195_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00195_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00195_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 195,
+      "sample_uid": "ea363999cf8268b578de5054",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00196_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00196_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00196_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 196,
+      "sample_uid": "feece88a5763386db8726cc6",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00197_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00197_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00197_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 197,
+      "sample_uid": "971625e7c4bff3ac6d7c8f81",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00198_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00198_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00198_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 198,
+      "sample_uid": "135e4eaafa540bd1f3a1ede5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00199_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00199_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00199_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 199,
+      "sample_uid": "07ff59f867baf23797ed23eb",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00200_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00200_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00200_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 200,
+      "sample_uid": "f13fa63c7c111e200469bdea",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00201_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00201_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00201_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 201,
+      "sample_uid": "fb4ec24b09d17d269a31484f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00202_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00202_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00202_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 202,
+      "sample_uid": "7f531c15b0cafbd5901883c4",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00203_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00203_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00203_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 203,
+      "sample_uid": "7adb290927b754f49e252131",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00204_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00204_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00204_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 204,
+      "sample_uid": "b02457ca195d00d46f9ef6fe",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00205_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00205_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00205_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 205,
+      "sample_uid": "9677c84f96b352c78b2c7de0",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00206_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00206_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00206_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 206,
+      "sample_uid": "bbfee89c81e1b9677170fa8a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00207_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00207_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00207_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 207,
+      "sample_uid": "f2ad6d7046387f29b6b91204",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00208_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00208_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00208_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 208,
+      "sample_uid": "1408b0f62a99b05331293073",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00209_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00209_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00209_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 209,
+      "sample_uid": "6a72576ffdde7bbb862bdf34",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00210_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00210_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00210_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 210,
+      "sample_uid": "1eb0859884ff83230e65f748",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00211_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00211_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00211_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 211,
+      "sample_uid": "07dafa8d171c82ef107cdb93",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00212_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00212_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00212_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 212,
+      "sample_uid": "4906d580515ca866b6df4b33",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00213_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00213_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00213_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 213,
+      "sample_uid": "091236a5d929043abe7f51a1",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00214_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00214_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00214_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 214,
+      "sample_uid": "564d5998fd05487c1e5f3b95",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00215_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00215_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00215_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 215,
+      "sample_uid": "4b8038086d4182162c50a174",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00216_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00216_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00216_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 216,
+      "sample_uid": "797c3b9436ccbeff1b69aa09",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00217_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00217_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00217_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 217,
+      "sample_uid": "a458a7062a5a4c1c6df3c8e8",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00218_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00218_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00218_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 218,
+      "sample_uid": "f09f353ce507254e949fa028",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00219_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00219_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00219_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 219,
+      "sample_uid": "17cf72b1d4d98028a2cbe264",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00220_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00220_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00220_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 220,
+      "sample_uid": "d90092bed67bcf3e247a8735",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00221_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00221_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00221_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 221,
+      "sample_uid": "d8e35070cefa88dfde5f3737",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00222_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00222_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00222_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 222,
+      "sample_uid": "e0a46b838f91d01b7ec4fd56",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00223_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00223_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00223_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 223,
+      "sample_uid": "2ee681f14a961942d83fde16",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00224_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00224_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00224_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 224,
+      "sample_uid": "b7d1f1d76718670584a20112",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00225_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00225_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00225_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 225,
+      "sample_uid": "2c745f1b0e034729b5f749cc",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00226_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00226_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00226_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 226,
+      "sample_uid": "ddfa5ec47ea1924889e77f4a",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00227_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00227_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00227_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 227,
+      "sample_uid": "78671fe2896bd01ef7f8c70f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00228_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00228_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00228_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 228,
+      "sample_uid": "0081d39b2c2a8ac2081fa840",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00229_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00229_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00229_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 229,
+      "sample_uid": "7134536be19da1e4b7fb983c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00230_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00230_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00230_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 230,
+      "sample_uid": "a940d6a2ee25b173c3b46b5c",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00231_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00231_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00231_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 231,
+      "sample_uid": "8001f681a2b5e53532f60817",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00232_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00232_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00232_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 232,
+      "sample_uid": "a2cb67e5a1da81574854c136",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00233_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00233_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00233_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 233,
+      "sample_uid": "16caabf9d848903884002dd5",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00234_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00234_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00234_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 234,
+      "sample_uid": "d1d45b080c6bb8a5ef2a7e01",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00235_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00235_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00235_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 235,
+      "sample_uid": "cc802e0dbb4775b6a4144024",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00236_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00236_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00236_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 236,
+      "sample_uid": "4e2a051d9585d1ec381758b8",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00237_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00237_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00237_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 237,
+      "sample_uid": "6eb8f43d69bafa25bc693936",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00238_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00238_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00238_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 238,
+      "sample_uid": "e8be816f9f0fffb0788d692b",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00239_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00239_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00239_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 239,
+      "sample_uid": "8e12ffb2f1e9528fbd745b9f",
+      "domain": "JHTDB_channel_hd",
+      "image1_name": "JHTDB_channel_hd_00240_img1.tif",
+      "image2_name": "JHTDB_channel_hd_00240_img2.tif",
+      "flow_name": "JHTDB_channel_hd_00240_flow.flo",
+      "split": "test"
+    }
+  ],
+  "split_sha256": "7cbbe0ed1f84a509543dc5babd633e72c0b514bae3eeebe6c029b3ad1419691d"
+}

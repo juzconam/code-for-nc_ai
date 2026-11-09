@@ -1,0 +1,2175 @@
+{
+  "schema_version": "holdout-1",
+  "split_protocol": "held-out domain, never used in training, validation or model selection",
+  "split_seed": 0,
+  "test_size": 240,
+  "ratio": {
+    "train": 0.0,
+    "validation": 0.0,
+    "test": 1.0
+  },
+  "purge_gap": 0,
+  "samples": [
+    {
+      "index": 0,
+      "sample_uid": "62ca4978753dbf80bb59e649",
+      "domain": "uniform",
+      "image1_name": "uniform_00001_img1.tif",
+      "image2_name": "uniform_00001_img2.tif",
+      "flow_name": "uniform_00001_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 1,
+      "sample_uid": "d9d5556cdcb1540572c89306",
+      "domain": "uniform",
+      "image1_name": "uniform_00002_img1.tif",
+      "image2_name": "uniform_00002_img2.tif",
+      "flow_name": "uniform_00002_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 2,
+      "sample_uid": "8e9f31661218e08609c3ae59",
+      "domain": "uniform",
+      "image1_name": "uniform_00003_img1.tif",
+      "image2_name": "uniform_00003_img2.tif",
+      "flow_name": "uniform_00003_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 3,
+      "sample_uid": "a7a439780f42964fe10b0770",
+      "domain": "uniform",
+      "image1_name": "uniform_00004_img1.tif",
+      "image2_name": "uniform_00004_img2.tif",
+      "flow_name": "uniform_00004_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 4,
+      "sample_uid": "a3c54e871ddbd0e7eecfc302",
+      "domain": "uniform",
+      "image1_name": "uniform_00005_img1.tif",
+      "image2_name": "uniform_00005_img2.tif",
+      "flow_name": "uniform_00005_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 5,
+      "sample_uid": "5ccc83e49784d08b4b543cbc",
+      "domain": "uniform",
+      "image1_name": "uniform_00006_img1.tif",
+      "image2_name": "uniform_00006_img2.tif",
+      "flow_name": "uniform_00006_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 6,
+      "sample_uid": "d95880b262395910c2a911f3",
+      "domain": "uniform",
+      "image1_name": "uniform_00007_img1.tif",
+      "image2_name": "uniform_00007_img2.tif",
+      "flow_name": "uniform_00007_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 7,
+      "sample_uid": "fd3b5e967dbbdba429a9ffd3",
+      "domain": "uniform",
+      "image1_name": "uniform_00008_img1.tif",
+      "image2_name": "uniform_00008_img2.tif",
+      "flow_name": "uniform_00008_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 8,
+      "sample_uid": "24a9cf99be15c1e9235d2b29",
+      "domain": "uniform",
+      "image1_name": "uniform_00009_img1.tif",
+      "image2_name": "uniform_00009_img2.tif",
+      "flow_name": "uniform_00009_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 9,
+      "sample_uid": "2167e6c63f07a77fd2840aca",
+      "domain": "uniform",
+      "image1_name": "uniform_00010_img1.tif",
+      "image2_name": "uniform_00010_img2.tif",
+      "flow_name": "uniform_00010_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 10,
+      "sample_uid": "7b312e004f7269964433dda9",
+      "domain": "uniform",
+      "image1_name": "uniform_00011_img1.tif",
+      "image2_name": "uniform_00011_img2.tif",
+      "flow_name": "uniform_00011_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 11,
+      "sample_uid": "2b300b6c5b131146e607bc56",
+      "domain": "uniform",
+      "image1_name": "uniform_00012_img1.tif",
+      "image2_name": "uniform_00012_img2.tif",
+      "flow_name": "uniform_00012_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 12,
+      "sample_uid": "d55b896543f6bde0623209b2",
+      "domain": "uniform",
+      "image1_name": "uniform_00013_img1.tif",
+      "image2_name": "uniform_00013_img2.tif",
+      "flow_name": "uniform_00013_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 13,
+      "sample_uid": "270fa94feb64dfa41e49e465",
+      "domain": "uniform",
+      "image1_name": "uniform_00014_img1.tif",
+      "image2_name": "uniform_00014_img2.tif",
+      "flow_name": "uniform_00014_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 14,
+      "sample_uid": "acca5deb1dcf3830ad630a01",
+      "domain": "uniform",
+      "image1_name": "uniform_00015_img1.tif",
+      "image2_name": "uniform_00015_img2.tif",
+      "flow_name": "uniform_00015_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 15,
+      "sample_uid": "822c83e6eeaa95853c12551f",
+      "domain": "uniform",
+      "image1_name": "uniform_00016_img1.tif",
+      "image2_name": "uniform_00016_img2.tif",
+      "flow_name": "uniform_00016_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 16,
+      "sample_uid": "40a4e2a691d38c76bc00b061",
+      "domain": "uniform",
+      "image1_name": "uniform_00017_img1.tif",
+      "image2_name": "uniform_00017_img2.tif",
+      "flow_name": "uniform_00017_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 17,
+      "sample_uid": "825f6bdeaba5a287343387e0",
+      "domain": "uniform",
+      "image1_name": "uniform_00018_img1.tif",
+      "image2_name": "uniform_00018_img2.tif",
+      "flow_name": "uniform_00018_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 18,
+      "sample_uid": "d17cfe53749fa096973b93ff",
+      "domain": "uniform",
+      "image1_name": "uniform_00019_img1.tif",
+      "image2_name": "uniform_00019_img2.tif",
+      "flow_name": "uniform_00019_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 19,
+      "sample_uid": "1f8a9d6004b98aef5238afdb",
+      "domain": "uniform",
+      "image1_name": "uniform_00020_img1.tif",
+      "image2_name": "uniform_00020_img2.tif",
+      "flow_name": "uniform_00020_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 20,
+      "sample_uid": "80ba366fd039355c9331384f",
+      "domain": "uniform",
+      "image1_name": "uniform_00021_img1.tif",
+      "image2_name": "uniform_00021_img2.tif",
+      "flow_name": "uniform_00021_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 21,
+      "sample_uid": "c47677838f3b605ca0d92a1f",
+      "domain": "uniform",
+      "image1_name": "uniform_00022_img1.tif",
+      "image2_name": "uniform_00022_img2.tif",
+      "flow_name": "uniform_00022_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 22,
+      "sample_uid": "0ca9764e43336e6728e74e94",
+      "domain": "uniform",
+      "image1_name": "uniform_00023_img1.tif",
+      "image2_name": "uniform_00023_img2.tif",
+      "flow_name": "uniform_00023_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 23,
+      "sample_uid": "a9ce25c2db7054f0087e2952",
+      "domain": "uniform",
+      "image1_name": "uniform_00024_img1.tif",
+      "image2_name": "uniform_00024_img2.tif",
+      "flow_name": "uniform_00024_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 24,
+      "sample_uid": "a69f9270bda3b76afb4fac98",
+      "domain": "uniform",
+      "image1_name": "uniform_00025_img1.tif",
+      "image2_name": "uniform_00025_img2.tif",
+      "flow_name": "uniform_00025_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 25,
+      "sample_uid": "7ef266f63463b955875665b4",
+      "domain": "uniform",
+      "image1_name": "uniform_00026_img1.tif",
+      "image2_name": "uniform_00026_img2.tif",
+      "flow_name": "uniform_00026_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 26,
+      "sample_uid": "afcf66a36d0220fa77a59f1b",
+      "domain": "uniform",
+      "image1_name": "uniform_00027_img1.tif",
+      "image2_name": "uniform_00027_img2.tif",
+      "flow_name": "uniform_00027_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 27,
+      "sample_uid": "2468ce1ea5571461a8265524",
+      "domain": "uniform",
+      "image1_name": "uniform_00028_img1.tif",
+      "image2_name": "uniform_00028_img2.tif",
+      "flow_name": "uniform_00028_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 28,
+      "sample_uid": "aad746db355ff3b740a2fb53",
+      "domain": "uniform",
+      "image1_name": "uniform_00029_img1.tif",
+      "image2_name": "uniform_00029_img2.tif",
+      "flow_name": "uniform_00029_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 29,
+      "sample_uid": "1cadbd3a34cf7e4d9e5b4a22",
+      "domain": "uniform",
+      "image1_name": "uniform_00030_img1.tif",
+      "image2_name": "uniform_00030_img2.tif",
+      "flow_name": "uniform_00030_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 30,
+      "sample_uid": "4eb629fedf8cfc4822129106",
+      "domain": "uniform",
+      "image1_name": "uniform_00031_img1.tif",
+      "image2_name": "uniform_00031_img2.tif",
+      "flow_name": "uniform_00031_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 31,
+      "sample_uid": "c7c4b596762e8b06364b1494",
+      "domain": "uniform",
+      "image1_name": "uniform_00032_img1.tif",
+      "image2_name": "uniform_00032_img2.tif",
+      "flow_name": "uniform_00032_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 32,
+      "sample_uid": "a79e4929e7dcd80e1efafca1",
+      "domain": "uniform",
+      "image1_name": "uniform_00033_img1.tif",
+      "image2_name": "uniform_00033_img2.tif",
+      "flow_name": "uniform_00033_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 33,
+      "sample_uid": "2d0eee83db02e8a6d6490681",
+      "domain": "uniform",
+      "image1_name": "uniform_00034_img1.tif",
+      "image2_name": "uniform_00034_img2.tif",
+      "flow_name": "uniform_00034_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 34,
+      "sample_uid": "2d2bf626acfda1b46370b948",
+      "domain": "uniform",
+      "image1_name": "uniform_00035_img1.tif",
+      "image2_name": "uniform_00035_img2.tif",
+      "flow_name": "uniform_00035_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 35,
+      "sample_uid": "9247b1f674eb0ee122d1aaba",
+      "domain": "uniform",
+      "image1_name": "uniform_00036_img1.tif",
+      "image2_name": "uniform_00036_img2.tif",
+      "flow_name": "uniform_00036_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 36,
+      "sample_uid": "04bcb7aa0a8bed60b717defa",
+      "domain": "uniform",
+      "image1_name": "uniform_00037_img1.tif",
+      "image2_name": "uniform_00037_img2.tif",
+      "flow_name": "uniform_00037_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 37,
+      "sample_uid": "b51d70746af8ac96c1177f53",
+      "domain": "uniform",
+      "image1_name": "uniform_00038_img1.tif",
+      "image2_name": "uniform_00038_img2.tif",
+      "flow_name": "uniform_00038_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 38,
+      "sample_uid": "2428b3898a03e5f2645c9554",
+      "domain": "uniform",
+      "image1_name": "uniform_00039_img1.tif",
+      "image2_name": "uniform_00039_img2.tif",
+      "flow_name": "uniform_00039_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 39,
+      "sample_uid": "57ce4f6b524ce6f365f3f79c",
+      "domain": "uniform",
+      "image1_name": "uniform_00040_img1.tif",
+      "image2_name": "uniform_00040_img2.tif",
+      "flow_name": "uniform_00040_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 40,
+      "sample_uid": "2f44c828d88ddd7c43db169a",
+      "domain": "uniform",
+      "image1_name": "uniform_00041_img1.tif",
+      "image2_name": "uniform_00041_img2.tif",
+      "flow_name": "uniform_00041_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 41,
+      "sample_uid": "facaff30d865718e59933d16",
+      "domain": "uniform",
+      "image1_name": "uniform_00042_img1.tif",
+      "image2_name": "uniform_00042_img2.tif",
+      "flow_name": "uniform_00042_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 42,
+      "sample_uid": "a5169682a37539e450e273a0",
+      "domain": "uniform",
+      "image1_name": "uniform_00043_img1.tif",
+      "image2_name": "uniform_00043_img2.tif",
+      "flow_name": "uniform_00043_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 43,
+      "sample_uid": "f6493ce341a818cf88398511",
+      "domain": "uniform",
+      "image1_name": "uniform_00044_img1.tif",
+      "image2_name": "uniform_00044_img2.tif",
+      "flow_name": "uniform_00044_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 44,
+      "sample_uid": "68ea01584af50d0521111940",
+      "domain": "uniform",
+      "image1_name": "uniform_00045_img1.tif",
+      "image2_name": "uniform_00045_img2.tif",
+      "flow_name": "uniform_00045_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 45,
+      "sample_uid": "4b84a2331fdb75cfde0b1847",
+      "domain": "uniform",
+      "image1_name": "uniform_00046_img1.tif",
+      "image2_name": "uniform_00046_img2.tif",
+      "flow_name": "uniform_00046_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 46,
+      "sample_uid": "687eb28c50f3d15cbb859a45",
+      "domain": "uniform",
+      "image1_name": "uniform_00047_img1.tif",
+      "image2_name": "uniform_00047_img2.tif",
+      "flow_name": "uniform_00047_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 47,
+      "sample_uid": "04a3cdd5154fd7cd76825177",
+      "domain": "uniform",
+      "image1_name": "uniform_00048_img1.tif",
+      "image2_name": "uniform_00048_img2.tif",
+      "flow_name": "uniform_00048_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 48,
+      "sample_uid": "a88f43ba990fdb489dcd74a2",
+      "domain": "uniform",
+      "image1_name": "uniform_00049_img1.tif",
+      "image2_name": "uniform_00049_img2.tif",
+      "flow_name": "uniform_00049_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 49,
+      "sample_uid": "9c00eb4deea47f3c83182a14",
+      "domain": "uniform",
+      "image1_name": "uniform_00050_img1.tif",
+      "image2_name": "uniform_00050_img2.tif",
+      "flow_name": "uniform_00050_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 50,
+      "sample_uid": "2247b508b98482f6aca4e10c",
+      "domain": "uniform",
+      "image1_name": "uniform_00051_img1.tif",
+      "image2_name": "uniform_00051_img2.tif",
+      "flow_name": "uniform_00051_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 51,
+      "sample_uid": "53d4140fd4456bb50ccd769c",
+      "domain": "uniform",
+      "image1_name": "uniform_00052_img1.tif",
+      "image2_name": "uniform_00052_img2.tif",
+      "flow_name": "uniform_00052_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 52,
+      "sample_uid": "0b093c2bed7a03c509bab787",
+      "domain": "uniform",
+      "image1_name": "uniform_00053_img1.tif",
+      "image2_name": "uniform_00053_img2.tif",
+      "flow_name": "uniform_00053_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 53,
+      "sample_uid": "e5803958101f890f75c1d65b",
+      "domain": "uniform",
+      "image1_name": "uniform_00054_img1.tif",
+      "image2_name": "uniform_00054_img2.tif",
+      "flow_name": "uniform_00054_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 54,
+      "sample_uid": "7f74bf7055ae66af04807184",
+      "domain": "uniform",
+      "image1_name": "uniform_00055_img1.tif",
+      "image2_name": "uniform_00055_img2.tif",
+      "flow_name": "uniform_00055_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 55,
+      "sample_uid": "f107bd71376841858e2996c4",
+      "domain": "uniform",
+      "image1_name": "uniform_00056_img1.tif",
+      "image2_name": "uniform_00056_img2.tif",
+      "flow_name": "uniform_00056_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 56,
+      "sample_uid": "383ffc347d8462f25d4c63ec",
+      "domain": "uniform",
+      "image1_name": "uniform_00057_img1.tif",
+      "image2_name": "uniform_00057_img2.tif",
+      "flow_name": "uniform_00057_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 57,
+      "sample_uid": "c76f8c797252e0b7254e24e2",
+      "domain": "uniform",
+      "image1_name": "uniform_00058_img1.tif",
+      "image2_name": "uniform_00058_img2.tif",
+      "flow_name": "uniform_00058_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 58,
+      "sample_uid": "2b8431f8b91fd4c74ba3313a",
+      "domain": "uniform",
+      "image1_name": "uniform_00059_img1.tif",
+      "image2_name": "uniform_00059_img2.tif",
+      "flow_name": "uniform_00059_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 59,
+      "sample_uid": "72eba021ff9fa0df0f93c0dc",
+      "domain": "uniform",
+      "image1_name": "uniform_00060_img1.tif",
+      "image2_name": "uniform_00060_img2.tif",
+      "flow_name": "uniform_00060_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 60,
+      "sample_uid": "cab467480d0ba128a2e0889d",
+      "domain": "uniform",
+      "image1_name": "uniform_00061_img1.tif",
+      "image2_name": "uniform_00061_img2.tif",
+      "flow_name": "uniform_00061_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 61,
+      "sample_uid": "ba3730274436cd19c49b04fc",
+      "domain": "uniform",
+      "image1_name": "uniform_00062_img1.tif",
+      "image2_name": "uniform_00062_img2.tif",
+      "flow_name": "uniform_00062_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 62,
+      "sample_uid": "b2dd4fdd0b4a98a9d59e0176",
+      "domain": "uniform",
+      "image1_name": "uniform_00063_img1.tif",
+      "image2_name": "uniform_00063_img2.tif",
+      "flow_name": "uniform_00063_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 63,
+      "sample_uid": "74d28c2d1c8b6eaf389af1fc",
+      "domain": "uniform",
+      "image1_name": "uniform_00064_img1.tif",
+      "image2_name": "uniform_00064_img2.tif",
+      "flow_name": "uniform_00064_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 64,
+      "sample_uid": "4d6f7f16d7624f21eae5fcf9",
+      "domain": "uniform",
+      "image1_name": "uniform_00065_img1.tif",
+      "image2_name": "uniform_00065_img2.tif",
+      "flow_name": "uniform_00065_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 65,
+      "sample_uid": "12759e3e3e0c379427c06d81",
+      "domain": "uniform",
+      "image1_name": "uniform_00066_img1.tif",
+      "image2_name": "uniform_00066_img2.tif",
+      "flow_name": "uniform_00066_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 66,
+      "sample_uid": "31aeb53416061efd43ab2f72",
+      "domain": "uniform",
+      "image1_name": "uniform_00067_img1.tif",
+      "image2_name": "uniform_00067_img2.tif",
+      "flow_name": "uniform_00067_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 67,
+      "sample_uid": "216d3e627b284bace429a5db",
+      "domain": "uniform",
+      "image1_name": "uniform_00068_img1.tif",
+      "image2_name": "uniform_00068_img2.tif",
+      "flow_name": "uniform_00068_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 68,
+      "sample_uid": "5ae6f8805bc682360ce5d246",
+      "domain": "uniform",
+      "image1_name": "uniform_00069_img1.tif",
+      "image2_name": "uniform_00069_img2.tif",
+      "flow_name": "uniform_00069_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 69,
+      "sample_uid": "690da98561c564bade877853",
+      "domain": "uniform",
+      "image1_name": "uniform_00070_img1.tif",
+      "image2_name": "uniform_00070_img2.tif",
+      "flow_name": "uniform_00070_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 70,
+      "sample_uid": "ccab36b4d0b3f925a0bed04e",
+      "domain": "uniform",
+      "image1_name": "uniform_00071_img1.tif",
+      "image2_name": "uniform_00071_img2.tif",
+      "flow_name": "uniform_00071_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 71,
+      "sample_uid": "2f98412971f716149514a712",
+      "domain": "uniform",
+      "image1_name": "uniform_00072_img1.tif",
+      "image2_name": "uniform_00072_img2.tif",
+      "flow_name": "uniform_00072_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 72,
+      "sample_uid": "09bd715ecfae377c35482e9f",
+      "domain": "uniform",
+      "image1_name": "uniform_00073_img1.tif",
+      "image2_name": "uniform_00073_img2.tif",
+      "flow_name": "uniform_00073_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 73,
+      "sample_uid": "93a4e395d2a32907513c0277",
+      "domain": "uniform",
+      "image1_name": "uniform_00074_img1.tif",
+      "image2_name": "uniform_00074_img2.tif",
+      "flow_name": "uniform_00074_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 74,
+      "sample_uid": "ac03e159de98752c60b416ad",
+      "domain": "uniform",
+      "image1_name": "uniform_00075_img1.tif",
+      "image2_name": "uniform_00075_img2.tif",
+      "flow_name": "uniform_00075_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 75,
+      "sample_uid": "fee1af66ebd40a09ad51e756",
+      "domain": "uniform",
+      "image1_name": "uniform_00076_img1.tif",
+      "image2_name": "uniform_00076_img2.tif",
+      "flow_name": "uniform_00076_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 76,
+      "sample_uid": "9a8100246ac623cbd7ac685f",
+      "domain": "uniform",
+      "image1_name": "uniform_00077_img1.tif",
+      "image2_name": "uniform_00077_img2.tif",
+      "flow_name": "uniform_00077_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 77,
+      "sample_uid": "4a913fa8a554af9661390300",
+      "domain": "uniform",
+      "image1_name": "uniform_00078_img1.tif",
+      "image2_name": "uniform_00078_img2.tif",
+      "flow_name": "uniform_00078_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 78,
+      "sample_uid": "c665fdea8660d060647ab222",
+      "domain": "uniform",
+      "image1_name": "uniform_00079_img1.tif",
+      "image2_name": "uniform_00079_img2.tif",
+      "flow_name": "uniform_00079_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 79,
+      "sample_uid": "053e1fca2b9aa60e079ff587",
+      "domain": "uniform",
+      "image1_name": "uniform_00080_img1.tif",
+      "image2_name": "uniform_00080_img2.tif",
+      "flow_name": "uniform_00080_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 80,
+      "sample_uid": "2bffb2ea6f865e07053d4854",
+      "domain": "uniform",
+      "image1_name": "uniform_00081_img1.tif",
+      "image2_name": "uniform_00081_img2.tif",
+      "flow_name": "uniform_00081_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 81,
+      "sample_uid": "3e914ecdedb5b66a918c417e",
+      "domain": "uniform",
+      "image1_name": "uniform_00082_img1.tif",
+      "image2_name": "uniform_00082_img2.tif",
+      "flow_name": "uniform_00082_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 82,
+      "sample_uid": "bdb82cb7b9ec93ec255ec4ac",
+      "domain": "uniform",
+      "image1_name": "uniform_00083_img1.tif",
+      "image2_name": "uniform_00083_img2.tif",
+      "flow_name": "uniform_00083_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 83,
+      "sample_uid": "4e2d3ca0eff68e03d473fa83",
+      "domain": "uniform",
+      "image1_name": "uniform_00084_img1.tif",
+      "image2_name": "uniform_00084_img2.tif",
+      "flow_name": "uniform_00084_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 84,
+      "sample_uid": "a69ffecde19223fd93328848",
+      "domain": "uniform",
+      "image1_name": "uniform_00085_img1.tif",
+      "image2_name": "uniform_00085_img2.tif",
+      "flow_name": "uniform_00085_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 85,
+      "sample_uid": "7a184f5b24f347f561ff2b99",
+      "domain": "uniform",
+      "image1_name": "uniform_00086_img1.tif",
+      "image2_name": "uniform_00086_img2.tif",
+      "flow_name": "uniform_00086_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 86,
+      "sample_uid": "b084c4ec149fea528b81c91d",
+      "domain": "uniform",
+      "image1_name": "uniform_00087_img1.tif",
+      "image2_name": "uniform_00087_img2.tif",
+      "flow_name": "uniform_00087_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 87,
+      "sample_uid": "b2db3a58d7249d68ab66a64d",
+      "domain": "uniform",
+      "image1_name": "uniform_00088_img1.tif",
+      "image2_name": "uniform_00088_img2.tif",
+      "flow_name": "uniform_00088_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 88,
+      "sample_uid": "43fb8b0cc18c82d92142f8ef",
+      "domain": "uniform",
+      "image1_name": "uniform_00089_img1.tif",
+      "image2_name": "uniform_00089_img2.tif",
+      "flow_name": "uniform_00089_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 89,
+      "sample_uid": "92a7c7bd393fbeac8a934ba2",
+      "domain": "uniform",
+      "image1_name": "uniform_00090_img1.tif",
+      "image2_name": "uniform_00090_img2.tif",
+      "flow_name": "uniform_00090_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 90,
+      "sample_uid": "32062954189cf6d7d5f0baa1",
+      "domain": "uniform",
+      "image1_name": "uniform_00091_img1.tif",
+      "image2_name": "uniform_00091_img2.tif",
+      "flow_name": "uniform_00091_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 91,
+      "sample_uid": "238e0544ca0e22d38b0a79e1",
+      "domain": "uniform",
+      "image1_name": "uniform_00092_img1.tif",
+      "image2_name": "uniform_00092_img2.tif",
+      "flow_name": "uniform_00092_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 92,
+      "sample_uid": "224054cc231231b422abb244",
+      "domain": "uniform",
+      "image1_name": "uniform_00093_img1.tif",
+      "image2_name": "uniform_00093_img2.tif",
+      "flow_name": "uniform_00093_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 93,
+      "sample_uid": "3014d053c4864ede5d9fdf4f",
+      "domain": "uniform",
+      "image1_name": "uniform_00094_img1.tif",
+      "image2_name": "uniform_00094_img2.tif",
+      "flow_name": "uniform_00094_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 94,
+      "sample_uid": "c814ed758c044f30709882d0",
+      "domain": "uniform",
+      "image1_name": "uniform_00095_img1.tif",
+      "image2_name": "uniform_00095_img2.tif",
+      "flow_name": "uniform_00095_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 95,
+      "sample_uid": "56303d0681e9abb7dc62dd05",
+      "domain": "uniform",
+      "image1_name": "uniform_00096_img1.tif",
+      "image2_name": "uniform_00096_img2.tif",
+      "flow_name": "uniform_00096_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 96,
+      "sample_uid": "e7ade4d3c9d0ffecf3feaf0e",
+      "domain": "uniform",
+      "image1_name": "uniform_00097_img1.tif",
+      "image2_name": "uniform_00097_img2.tif",
+      "flow_name": "uniform_00097_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 97,
+      "sample_uid": "8de67d5e095754221cbb2bc1",
+      "domain": "uniform",
+      "image1_name": "uniform_00098_img1.tif",
+      "image2_name": "uniform_00098_img2.tif",
+      "flow_name": "uniform_00098_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 98,
+      "sample_uid": "1e8fef3bf589a5d34d84da53",
+      "domain": "uniform",
+      "image1_name": "uniform_00099_img1.tif",
+      "image2_name": "uniform_00099_img2.tif",
+      "flow_name": "uniform_00099_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 99,
+      "sample_uid": "f1def0aa2269bd86a73fc99d",
+      "domain": "uniform",
+      "image1_name": "uniform_00100_img1.tif",
+      "image2_name": "uniform_00100_img2.tif",
+      "flow_name": "uniform_00100_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 100,
+      "sample_uid": "7cf2ad8bcd603f0d935e7c72",
+      "domain": "uniform",
+      "image1_name": "uniform_00101_img1.tif",
+      "image2_name": "uniform_00101_img2.tif",
+      "flow_name": "uniform_00101_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 101,
+      "sample_uid": "f8915eb829a370b6e6796818",
+      "domain": "uniform",
+      "image1_name": "uniform_00102_img1.tif",
+      "image2_name": "uniform_00102_img2.tif",
+      "flow_name": "uniform_00102_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 102,
+      "sample_uid": "c539720fc9658b38aa3afb8e",
+      "domain": "uniform",
+      "image1_name": "uniform_00103_img1.tif",
+      "image2_name": "uniform_00103_img2.tif",
+      "flow_name": "uniform_00103_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 103,
+      "sample_uid": "8943474d59200a6447d03fa9",
+      "domain": "uniform",
+      "image1_name": "uniform_00104_img1.tif",
+      "image2_name": "uniform_00104_img2.tif",
+      "flow_name": "uniform_00104_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 104,
+      "sample_uid": "1a02d07d03997c111af5bc54",
+      "domain": "uniform",
+      "image1_name": "uniform_00105_img1.tif",
+      "image2_name": "uniform_00105_img2.tif",
+      "flow_name": "uniform_00105_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 105,
+      "sample_uid": "c3c2ba34d417774041f7aea5",
+      "domain": "uniform",
+      "image1_name": "uniform_00106_img1.tif",
+      "image2_name": "uniform_00106_img2.tif",
+      "flow_name": "uniform_00106_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 106,
+      "sample_uid": "75fc3b1e4532c5999f62e5a0",
+      "domain": "uniform",
+      "image1_name": "uniform_00107_img1.tif",
+      "image2_name": "uniform_00107_img2.tif",
+      "flow_name": "uniform_00107_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 107,
+      "sample_uid": "4f247b9c0cc7286e3e62c696",
+      "domain": "uniform",
+      "image1_name": "uniform_00108_img1.tif",
+      "image2_name": "uniform_00108_img2.tif",
+      "flow_name": "uniform_00108_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 108,
+      "sample_uid": "3d6374e2ef913a7977b77a74",
+      "domain": "uniform",
+      "image1_name": "uniform_00109_img1.tif",
+      "image2_name": "uniform_00109_img2.tif",
+      "flow_name": "uniform_00109_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 109,
+      "sample_uid": "41fa507984769b6e4fd1d192",
+      "domain": "uniform",
+      "image1_name": "uniform_00110_img1.tif",
+      "image2_name": "uniform_00110_img2.tif",
+      "flow_name": "uniform_00110_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 110,
+      "sample_uid": "3c69365ba275df692d291e0a",
+      "domain": "uniform",
+      "image1_name": "uniform_00111_img1.tif",
+      "image2_name": "uniform_00111_img2.tif",
+      "flow_name": "uniform_00111_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 111,
+      "sample_uid": "b2d34dbdd9a8d34815bf1211",
+      "domain": "uniform",
+      "image1_name": "uniform_00112_img1.tif",
+      "image2_name": "uniform_00112_img2.tif",
+      "flow_name": "uniform_00112_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 112,
+      "sample_uid": "649a6c4cf519a465e52777a3",
+      "domain": "uniform",
+      "image1_name": "uniform_00113_img1.tif",
+      "image2_name": "uniform_00113_img2.tif",
+      "flow_name": "uniform_00113_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 113,
+      "sample_uid": "383420ecc6be0c3bd5ebef89",
+      "domain": "uniform",
+      "image1_name": "uniform_00114_img1.tif",
+      "image2_name": "uniform_00114_img2.tif",
+      "flow_name": "uniform_00114_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 114,
+      "sample_uid": "37218905568955662d2706c0",
+      "domain": "uniform",
+      "image1_name": "uniform_00115_img1.tif",
+      "image2_name": "uniform_00115_img2.tif",
+      "flow_name": "uniform_00115_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 115,
+      "sample_uid": "2cfb943b4035a23b444b1f42",
+      "domain": "uniform",
+      "image1_name": "uniform_00116_img1.tif",
+      "image2_name": "uniform_00116_img2.tif",
+      "flow_name": "uniform_00116_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 116,
+      "sample_uid": "44e622e27de97c497edd77f2",
+      "domain": "uniform",
+      "image1_name": "uniform_00117_img1.tif",
+      "image2_name": "uniform_00117_img2.tif",
+      "flow_name": "uniform_00117_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 117,
+      "sample_uid": "0ff61aa2ebb17690357b81d6",
+      "domain": "uniform",
+      "image1_name": "uniform_00118_img1.tif",
+      "image2_name": "uniform_00118_img2.tif",
+      "flow_name": "uniform_00118_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 118,
+      "sample_uid": "59613bc4e19b0e42992090ea",
+      "domain": "uniform",
+      "image1_name": "uniform_00119_img1.tif",
+      "image2_name": "uniform_00119_img2.tif",
+      "flow_name": "uniform_00119_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 119,
+      "sample_uid": "41e8276fdc8c308ad3e0c9e8",
+      "domain": "uniform",
+      "image1_name": "uniform_00120_img1.tif",
+      "image2_name": "uniform_00120_img2.tif",
+      "flow_name": "uniform_00120_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 120,
+      "sample_uid": "f9352cf7a622c9f84219a70b",
+      "domain": "uniform",
+      "image1_name": "uniform_00121_img1.tif",
+      "image2_name": "uniform_00121_img2.tif",
+      "flow_name": "uniform_00121_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 121,
+      "sample_uid": "8d821d7b8c40ea80bfe345db",
+      "domain": "uniform",
+      "image1_name": "uniform_00122_img1.tif",
+      "image2_name": "uniform_00122_img2.tif",
+      "flow_name": "uniform_00122_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 122,
+      "sample_uid": "1f0657be98e33ffa97e9ab40",
+      "domain": "uniform",
+      "image1_name": "uniform_00123_img1.tif",
+      "image2_name": "uniform_00123_img2.tif",
+      "flow_name": "uniform_00123_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 123,
+      "sample_uid": "ec6b14408c31f31ba61fc7a5",
+      "domain": "uniform",
+      "image1_name": "uniform_00124_img1.tif",
+      "image2_name": "uniform_00124_img2.tif",
+      "flow_name": "uniform_00124_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 124,
+      "sample_uid": "58ddd3a221832bbcd62fc01c",
+      "domain": "uniform",
+      "image1_name": "uniform_00125_img1.tif",
+      "image2_name": "uniform_00125_img2.tif",
+      "flow_name": "uniform_00125_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 125,
+      "sample_uid": "64a97c73a3f794e6961e1d7d",
+      "domain": "uniform",
+      "image1_name": "uniform_00126_img1.tif",
+      "image2_name": "uniform_00126_img2.tif",
+      "flow_name": "uniform_00126_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 126,
+      "sample_uid": "87aab8581a33455ac6d6f331",
+      "domain": "uniform",
+      "image1_name": "uniform_00127_img1.tif",
+      "image2_name": "uniform_00127_img2.tif",
+      "flow_name": "uniform_00127_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 127,
+      "sample_uid": "bfbebd679e49f06c6dd164a1",
+      "domain": "uniform",
+      "image1_name": "uniform_00128_img1.tif",
+      "image2_name": "uniform_00128_img2.tif",
+      "flow_name": "uniform_00128_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 128,
+      "sample_uid": "65cebb9aff1b577148d77dc3",
+      "domain": "uniform",
+      "image1_name": "uniform_00129_img1.tif",
+      "image2_name": "uniform_00129_img2.tif",
+      "flow_name": "uniform_00129_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 129,
+      "sample_uid": "709ba0f383987d7f75278ca7",
+      "domain": "uniform",
+      "image1_name": "uniform_00130_img1.tif",
+      "image2_name": "uniform_00130_img2.tif",
+      "flow_name": "uniform_00130_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 130,
+      "sample_uid": "a63795405b5d0b787594acf2",
+      "domain": "uniform",
+      "image1_name": "uniform_00131_img1.tif",
+      "image2_name": "uniform_00131_img2.tif",
+      "flow_name": "uniform_00131_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 131,
+      "sample_uid": "7d82953cd2a25a1a8441d7e8",
+      "domain": "uniform",
+      "image1_name": "uniform_00132_img1.tif",
+      "image2_name": "uniform_00132_img2.tif",
+      "flow_name": "uniform_00132_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 132,
+      "sample_uid": "ea38985044b3d724ef06b407",
+      "domain": "uniform",
+      "image1_name": "uniform_00133_img1.tif",
+      "image2_name": "uniform_00133_img2.tif",
+      "flow_name": "uniform_00133_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 133,
+      "sample_uid": "7258732d45387c5d2d98ed0f",
+      "domain": "uniform",
+      "image1_name": "uniform_00134_img1.tif",
+      "image2_name": "uniform_00134_img2.tif",
+      "flow_name": "uniform_00134_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 134,
+      "sample_uid": "782e1b7236afbdea320b3992",
+      "domain": "uniform",
+      "image1_name": "uniform_00135_img1.tif",
+      "image2_name": "uniform_00135_img2.tif",
+      "flow_name": "uniform_00135_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 135,
+      "sample_uid": "0e69e29cdc3f97c2df17031d",
+      "domain": "uniform",
+      "image1_name": "uniform_00136_img1.tif",
+      "image2_name": "uniform_00136_img2.tif",
+      "flow_name": "uniform_00136_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 136,
+      "sample_uid": "0468a034e937cdc752ac7c13",
+      "domain": "uniform",
+      "image1_name": "uniform_00137_img1.tif",
+      "image2_name": "uniform_00137_img2.tif",
+      "flow_name": "uniform_00137_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 137,
+      "sample_uid": "f174e3b3de92751d54a2f4c3",
+      "domain": "uniform",
+      "image1_name": "uniform_00138_img1.tif",
+      "image2_name": "uniform_00138_img2.tif",
+      "flow_name": "uniform_00138_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 138,
+      "sample_uid": "4cfb5f23afeda13b72d387a4",
+      "domain": "uniform",
+      "image1_name": "uniform_00139_img1.tif",
+      "image2_name": "uniform_00139_img2.tif",
+      "flow_name": "uniform_00139_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 139,
+      "sample_uid": "863b477a6e4218f5838d5d7e",
+      "domain": "uniform",
+      "image1_name": "uniform_00140_img1.tif",
+      "image2_name": "uniform_00140_img2.tif",
+      "flow_name": "uniform_00140_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 140,
+      "sample_uid": "2fadfd3fbcb738cfed85261d",
+      "domain": "uniform",
+      "image1_name": "uniform_00141_img1.tif",
+      "image2_name": "uniform_00141_img2.tif",
+      "flow_name": "uniform_00141_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 141,
+      "sample_uid": "292ebf6793de8fb744740c61",
+      "domain": "uniform",
+      "image1_name": "uniform_00142_img1.tif",
+      "image2_name": "uniform_00142_img2.tif",
+      "flow_name": "uniform_00142_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 142,
+      "sample_uid": "db161f644fafee0813efbf35",
+      "domain": "uniform",
+      "image1_name": "uniform_00143_img1.tif",
+      "image2_name": "uniform_00143_img2.tif",
+      "flow_name": "uniform_00143_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 143,
+      "sample_uid": "7bcde1c0221fb91dd5fad740",
+      "domain": "uniform",
+      "image1_name": "uniform_00144_img1.tif",
+      "image2_name": "uniform_00144_img2.tif",
+      "flow_name": "uniform_00144_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 144,
+      "sample_uid": "858bc8d924917e0f8ce0d96f",
+      "domain": "uniform",
+      "image1_name": "uniform_00145_img1.tif",
+      "image2_name": "uniform_00145_img2.tif",
+      "flow_name": "uniform_00145_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 145,
+      "sample_uid": "9ebefc42db34e5731443f65d",
+      "domain": "uniform",
+      "image1_name": "uniform_00146_img1.tif",
+      "image2_name": "uniform_00146_img2.tif",
+      "flow_name": "uniform_00146_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 146,
+      "sample_uid": "6928b8f9f05953df99531e46",
+      "domain": "uniform",
+      "image1_name": "uniform_00147_img1.tif",
+      "image2_name": "uniform_00147_img2.tif",
+      "flow_name": "uniform_00147_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 147,
+      "sample_uid": "f8676f8c07c4a9a5e446bfe2",
+      "domain": "uniform",
+      "image1_name": "uniform_00148_img1.tif",
+      "image2_name": "uniform_00148_img2.tif",
+      "flow_name": "uniform_00148_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 148,
+      "sample_uid": "4d1cdad15104ddfd0db1272b",
+      "domain": "uniform",
+      "image1_name": "uniform_00149_img1.tif",
+      "image2_name": "uniform_00149_img2.tif",
+      "flow_name": "uniform_00149_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 149,
+      "sample_uid": "2a06fd02fbdd4d7fc448bb21",
+      "domain": "uniform",
+      "image1_name": "uniform_00150_img1.tif",
+      "image2_name": "uniform_00150_img2.tif",
+      "flow_name": "uniform_00150_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 150,
+      "sample_uid": "915faac8b36d8bf681a551c8",
+      "domain": "uniform",
+      "image1_name": "uniform_00151_img1.tif",
+      "image2_name": "uniform_00151_img2.tif",
+      "flow_name": "uniform_00151_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 151,
+      "sample_uid": "ebb16efb9f0a9a8320d5b7a1",
+      "domain": "uniform",
+      "image1_name": "uniform_00152_img1.tif",
+      "image2_name": "uniform_00152_img2.tif",
+      "flow_name": "uniform_00152_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 152,
+      "sample_uid": "35eab2ca411d21657327700a",
+      "domain": "uniform",
+      "image1_name": "uniform_00153_img1.tif",
+      "image2_name": "uniform_00153_img2.tif",
+      "flow_name": "uniform_00153_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 153,
+      "sample_uid": "ad62ba2025003bb5ade47956",
+      "domain": "uniform",
+      "image1_name": "uniform_00154_img1.tif",
+      "image2_name": "uniform_00154_img2.tif",
+      "flow_name": "uniform_00154_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 154,
+      "sample_uid": "8c167c78ffe7b73f568a8ab9",
+      "domain": "uniform",
+      "image1_name": "uniform_00155_img1.tif",
+      "image2_name": "uniform_00155_img2.tif",
+      "flow_name": "uniform_00155_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 155,
+      "sample_uid": "184d37d1db6be21fc64c1165",
+      "domain": "uniform",
+      "image1_name": "uniform_00156_img1.tif",
+      "image2_name": "uniform_00156_img2.tif",
+      "flow_name": "uniform_00156_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 156,
+      "sample_uid": "7f6c4336cee847d0d0f2fbba",
+      "domain": "uniform",
+      "image1_name": "uniform_00157_img1.tif",
+      "image2_name": "uniform_00157_img2.tif",
+      "flow_name": "uniform_00157_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 157,
+      "sample_uid": "3d164c8d98ba5fd61f5a76bd",
+      "domain": "uniform",
+      "image1_name": "uniform_00158_img1.tif",
+      "image2_name": "uniform_00158_img2.tif",
+      "flow_name": "uniform_00158_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 158,
+      "sample_uid": "a93f8526a5ef7550756e9fc4",
+      "domain": "uniform",
+      "image1_name": "uniform_00159_img1.tif",
+      "image2_name": "uniform_00159_img2.tif",
+      "flow_name": "uniform_00159_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 159,
+      "sample_uid": "457d8f9151990e7c88a8d1e9",
+      "domain": "uniform",
+      "image1_name": "uniform_00160_img1.tif",
+      "image2_name": "uniform_00160_img2.tif",
+      "flow_name": "uniform_00160_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 160,
+      "sample_uid": "94969137c47f1ca57735e8c5",
+      "domain": "uniform",
+      "image1_name": "uniform_00161_img1.tif",
+      "image2_name": "uniform_00161_img2.tif",
+      "flow_name": "uniform_00161_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 161,
+      "sample_uid": "e20f63874808cb948b39bea9",
+      "domain": "uniform",
+      "image1_name": "uniform_00162_img1.tif",
+      "image2_name": "uniform_00162_img2.tif",
+      "flow_name": "uniform_00162_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 162,
+      "sample_uid": "16422ec3136eb9a0326674ec",
+      "domain": "uniform",
+      "image1_name": "uniform_00163_img1.tif",
+      "image2_name": "uniform_00163_img2.tif",
+      "flow_name": "uniform_00163_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 163,
+      "sample_uid": "b2504fb632a81d30addf8e8f",
+      "domain": "uniform",
+      "image1_name": "uniform_00164_img1.tif",
+      "image2_name": "uniform_00164_img2.tif",
+      "flow_name": "uniform_00164_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 164,
+      "sample_uid": "4c8d9259f1ffe2fce1ce70f4",
+      "domain": "uniform",
+      "image1_name": "uniform_00165_img1.tif",
+      "image2_name": "uniform_00165_img2.tif",
+      "flow_name": "uniform_00165_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 165,
+      "sample_uid": "01ca537884967918b64b7ce5",
+      "domain": "uniform",
+      "image1_name": "uniform_00166_img1.tif",
+      "image2_name": "uniform_00166_img2.tif",
+      "flow_name": "uniform_00166_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 166,
+      "sample_uid": "4513c291173d50b1909b0702",
+      "domain": "uniform",
+      "image1_name": "uniform_00167_img1.tif",
+      "image2_name": "uniform_00167_img2.tif",
+      "flow_name": "uniform_00167_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 167,
+      "sample_uid": "36670e47d2d8c737c275bd5c",
+      "domain": "uniform",
+      "image1_name": "uniform_00168_img1.tif",
+      "image2_name": "uniform_00168_img2.tif",
+      "flow_name": "uniform_00168_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 168,
+      "sample_uid": "61054f5a9220a52f63068ad7",
+      "domain": "uniform",
+      "image1_name": "uniform_00169_img1.tif",
+      "image2_name": "uniform_00169_img2.tif",
+      "flow_name": "uniform_00169_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 169,
+      "sample_uid": "86240b1624c336ed4c3d8cc3",
+      "domain": "uniform",
+      "image1_name": "uniform_00170_img1.tif",
+      "image2_name": "uniform_00170_img2.tif",
+      "flow_name": "uniform_00170_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 170,
+      "sample_uid": "b383087014f1413ab89b5564",
+      "domain": "uniform",
+      "image1_name": "uniform_00171_img1.tif",
+      "image2_name": "uniform_00171_img2.tif",
+      "flow_name": "uniform_00171_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 171,
+      "sample_uid": "b466a000aa2cbd886a439691",
+      "domain": "uniform",
+      "image1_name": "uniform_00172_img1.tif",
+      "image2_name": "uniform_00172_img2.tif",
+      "flow_name": "uniform_00172_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 172,
+      "sample_uid": "f6d578bda9294a8411241c40",
+      "domain": "uniform",
+      "image1_name": "uniform_00173_img1.tif",
+      "image2_name": "uniform_00173_img2.tif",
+      "flow_name": "uniform_00173_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 173,
+      "sample_uid": "3c54d53c893fd25f75266aba",
+      "domain": "uniform",
+      "image1_name": "uniform_00174_img1.tif",
+      "image2_name": "uniform_00174_img2.tif",
+      "flow_name": "uniform_00174_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 174,
+      "sample_uid": "18ad68103a0d197f3470922b",
+      "domain": "uniform",
+      "image1_name": "uniform_00175_img1.tif",
+      "image2_name": "uniform_00175_img2.tif",
+      "flow_name": "uniform_00175_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 175,
+      "sample_uid": "de65213b1c8ac97c9956b43e",
+      "domain": "uniform",
+      "image1_name": "uniform_00176_img1.tif",
+      "image2_name": "uniform_00176_img2.tif",
+      "flow_name": "uniform_00176_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 176,
+      "sample_uid": "8d8e6a306135815b6a01c50f",
+      "domain": "uniform",
+      "image1_name": "uniform_00177_img1.tif",
+      "image2_name": "uniform_00177_img2.tif",
+      "flow_name": "uniform_00177_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 177,
+      "sample_uid": "2911a98c7a473fb3bece615f",
+      "domain": "uniform",
+      "image1_name": "uniform_00178_img1.tif",
+      "image2_name": "uniform_00178_img2.tif",
+      "flow_name": "uniform_00178_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 178,
+      "sample_uid": "1ad55c45f888383bdb3e7e58",
+      "domain": "uniform",
+      "image1_name": "uniform_00179_img1.tif",
+      "image2_name": "uniform_00179_img2.tif",
+      "flow_name": "uniform_00179_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 179,
+      "sample_uid": "78a3487f17ce2da0be50cbc3",
+      "domain": "uniform",
+      "image1_name": "uniform_00180_img1.tif",
+      "image2_name": "uniform_00180_img2.tif",
+      "flow_name": "uniform_00180_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 180,
+      "sample_uid": "b8070830da429f906bc14064",
+      "domain": "uniform",
+      "image1_name": "uniform_00181_img1.tif",
+      "image2_name": "uniform_00181_img2.tif",
+      "flow_name": "uniform_00181_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 181,
+      "sample_uid": "42a9569efd1978fe157e5a4e",
+      "domain": "uniform",
+      "image1_name": "uniform_00182_img1.tif",
+      "image2_name": "uniform_00182_img2.tif",
+      "flow_name": "uniform_00182_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 182,
+      "sample_uid": "6a6868118d218ddbcc15b939",
+      "domain": "uniform",
+      "image1_name": "uniform_00183_img1.tif",
+      "image2_name": "uniform_00183_img2.tif",
+      "flow_name": "uniform_00183_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 183,
+      "sample_uid": "fc0fe5bb9089446cf7a84a9f",
+      "domain": "uniform",
+      "image1_name": "uniform_00184_img1.tif",
+      "image2_name": "uniform_00184_img2.tif",
+      "flow_name": "uniform_00184_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 184,
+      "sample_uid": "1b804e256a411422ee76c35e",
+      "domain": "uniform",
+      "image1_name": "uniform_00185_img1.tif",
+      "image2_name": "uniform_00185_img2.tif",
+      "flow_name": "uniform_00185_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 185,
+      "sample_uid": "9b0539de3bbc6220be67f817",
+      "domain": "uniform",
+      "image1_name": "uniform_00186_img1.tif",
+      "image2_name": "uniform_00186_img2.tif",
+      "flow_name": "uniform_00186_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 186,
+      "sample_uid": "a557a80c120f5736f8018be7",
+      "domain": "uniform",
+      "image1_name": "uniform_00187_img1.tif",
+      "image2_name": "uniform_00187_img2.tif",
+      "flow_name": "uniform_00187_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 187,
+      "sample_uid": "96b6280691724aa3109cb7f2",
+      "domain": "uniform",
+      "image1_name": "uniform_00188_img1.tif",
+      "image2_name": "uniform_00188_img2.tif",
+      "flow_name": "uniform_00188_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 188,
+      "sample_uid": "d1ac6253dbcd4c89a648e93f",
+      "domain": "uniform",
+      "image1_name": "uniform_00189_img1.tif",
+      "image2_name": "uniform_00189_img2.tif",
+      "flow_name": "uniform_00189_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 189,
+      "sample_uid": "dc59cedcb0acf7a506a15e1f",
+      "domain": "uniform",
+      "image1_name": "uniform_00190_img1.tif",
+      "image2_name": "uniform_00190_img2.tif",
+      "flow_name": "uniform_00190_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 190,
+      "sample_uid": "422dcf17c7d41f7796491f73",
+      "domain": "uniform",
+      "image1_name": "uniform_00191_img1.tif",
+      "image2_name": "uniform_00191_img2.tif",
+      "flow_name": "uniform_00191_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 191,
+      "sample_uid": "7d61c7bfaa92b5ff2c6200d9",
+      "domain": "uniform",
+      "image1_name": "uniform_00192_img1.tif",
+      "image2_name": "uniform_00192_img2.tif",
+      "flow_name": "uniform_00192_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 192,
+      "sample_uid": "f2134255efd885d4faf9ee4e",
+      "domain": "uniform",
+      "image1_name": "uniform_00193_img1.tif",
+      "image2_name": "uniform_00193_img2.tif",
+      "flow_name": "uniform_00193_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 193,
+      "sample_uid": "6a3a4d9a2e6787630903afc2",
+      "domain": "uniform",
+      "image1_name": "uniform_00194_img1.tif",
+      "image2_name": "uniform_00194_img2.tif",
+      "flow_name": "uniform_00194_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 194,
+      "sample_uid": "e71010e2048cccbf648e8b54",
+      "domain": "uniform",
+      "image1_name": "uniform_00195_img1.tif",
+      "image2_name": "uniform_00195_img2.tif",
+      "flow_name": "uniform_00195_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 195,
+      "sample_uid": "1f28af5a26110d2cb842a2f5",
+      "domain": "uniform",
+      "image1_name": "uniform_00196_img1.tif",
+      "image2_name": "uniform_00196_img2.tif",
+      "flow_name": "uniform_00196_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 196,
+      "sample_uid": "924f33563f9f60940735bc9a",
+      "domain": "uniform",
+      "image1_name": "uniform_00197_img1.tif",
+      "image2_name": "uniform_00197_img2.tif",
+      "flow_name": "uniform_00197_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 197,
+      "sample_uid": "f2703f3561166de0352095a5",
+      "domain": "uniform",
+      "image1_name": "uniform_00198_img1.tif",
+      "image2_name": "uniform_00198_img2.tif",
+      "flow_name": "uniform_00198_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 198,
+      "sample_uid": "905175da8e35d0af188ed278",
+      "domain": "uniform",
+      "image1_name": "uniform_00199_img1.tif",
+      "image2_name": "uniform_00199_img2.tif",
+      "flow_name": "uniform_00199_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 199,
+      "sample_uid": "5ad3bd355f9c4d36340342ac",
+      "domain": "uniform",
+      "image1_name": "uniform_00200_img1.tif",
+      "image2_name": "uniform_00200_img2.tif",
+      "flow_name": "uniform_00200_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 200,
+      "sample_uid": "7106a87319f6b11920502902",
+      "domain": "uniform",
+      "image1_name": "uniform_00201_img1.tif",
+      "image2_name": "uniform_00201_img2.tif",
+      "flow_name": "uniform_00201_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 201,
+      "sample_uid": "dfb488ace0b64d92d9b26a65",
+      "domain": "uniform",
+      "image1_name": "uniform_00202_img1.tif",
+      "image2_name": "uniform_00202_img2.tif",
+      "flow_name": "uniform_00202_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 202,
+      "sample_uid": "f741e6746ffd1bedd0da069b",
+      "domain": "uniform",
+      "image1_name": "uniform_00203_img1.tif",
+      "image2_name": "uniform_00203_img2.tif",
+      "flow_name": "uniform_00203_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 203,
+      "sample_uid": "337fbb1b1ac2503e6d5d22bf",
+      "domain": "uniform",
+      "image1_name": "uniform_00204_img1.tif",
+      "image2_name": "uniform_00204_img2.tif",
+      "flow_name": "uniform_00204_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 204,
+      "sample_uid": "0c5d6c17548647266276a8f1",
+      "domain": "uniform",
+      "image1_name": "uniform_00205_img1.tif",
+      "image2_name": "uniform_00205_img2.tif",
+      "flow_name": "uniform_00205_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 205,
+      "sample_uid": "e9f937beb8b127f10f4b4a21",
+      "domain": "uniform",
+      "image1_name": "uniform_00206_img1.tif",
+      "image2_name": "uniform_00206_img2.tif",
+      "flow_name": "uniform_00206_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 206,
+      "sample_uid": "3bbd10138d70678a91039461",
+      "domain": "uniform",
+      "image1_name": "uniform_00207_img1.tif",
+      "image2_name": "uniform_00207_img2.tif",
+      "flow_name": "uniform_00207_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 207,
+      "sample_uid": "60c8d2f99b88ea7702a307b6",
+      "domain": "uniform",
+      "image1_name": "uniform_00208_img1.tif",
+      "image2_name": "uniform_00208_img2.tif",
+      "flow_name": "uniform_00208_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 208,
+      "sample_uid": "163b95630c29812d0350d59e",
+      "domain": "uniform",
+      "image1_name": "uniform_00209_img1.tif",
+      "image2_name": "uniform_00209_img2.tif",
+      "flow_name": "uniform_00209_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 209,
+      "sample_uid": "78c10f519c7fa7ee0a8dbee7",
+      "domain": "uniform",
+      "image1_name": "uniform_00210_img1.tif",
+      "image2_name": "uniform_00210_img2.tif",
+      "flow_name": "uniform_00210_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 210,
+      "sample_uid": "1ab88049c96caabe3e7ab28a",
+      "domain": "uniform",
+      "image1_name": "uniform_00211_img1.tif",
+      "image2_name": "uniform_00211_img2.tif",
+      "flow_name": "uniform_00211_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 211,
+      "sample_uid": "37d15896acfb031841a38e03",
+      "domain": "uniform",
+      "image1_name": "uniform_00212_img1.tif",
+      "image2_name": "uniform_00212_img2.tif",
+      "flow_name": "uniform_00212_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 212,
+      "sample_uid": "3744665bb6c780a54763876e",
+      "domain": "uniform",
+      "image1_name": "uniform_00213_img1.tif",
+      "image2_name": "uniform_00213_img2.tif",
+      "flow_name": "uniform_00213_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 213,
+      "sample_uid": "59c0fd542b81f27f004d3eee",
+      "domain": "uniform",
+      "image1_name": "uniform_00214_img1.tif",
+      "image2_name": "uniform_00214_img2.tif",
+      "flow_name": "uniform_00214_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 214,
+      "sample_uid": "f55fdfa6f852489f27d26214",
+      "domain": "uniform",
+      "image1_name": "uniform_00215_img1.tif",
+      "image2_name": "uniform_00215_img2.tif",
+      "flow_name": "uniform_00215_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 215,
+      "sample_uid": "69dd1f48248ddcdae3aa438b",
+      "domain": "uniform",
+      "image1_name": "uniform_00216_img1.tif",
+      "image2_name": "uniform_00216_img2.tif",
+      "flow_name": "uniform_00216_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 216,
+      "sample_uid": "d409ce3e0a5876aa4bda998a",
+      "domain": "uniform",
+      "image1_name": "uniform_00217_img1.tif",
+      "image2_name": "uniform_00217_img2.tif",
+      "flow_name": "uniform_00217_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 217,
+      "sample_uid": "13affc00cf4d764652f44fab",
+      "domain": "uniform",
+      "image1_name": "uniform_00218_img1.tif",
+      "image2_name": "uniform_00218_img2.tif",
+      "flow_name": "uniform_00218_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 218,
+      "sample_uid": "d3e2048e6304866dfe9f185c",
+      "domain": "uniform",
+      "image1_name": "uniform_00219_img1.tif",
+      "image2_name": "uniform_00219_img2.tif",
+      "flow_name": "uniform_00219_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 219,
+      "sample_uid": "365315eca49831e71db50e90",
+      "domain": "uniform",
+      "image1_name": "uniform_00220_img1.tif",
+      "image2_name": "uniform_00220_img2.tif",
+      "flow_name": "uniform_00220_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 220,
+      "sample_uid": "173c6c49353ab8c309bfcc2f",
+      "domain": "uniform",
+      "image1_name": "uniform_00221_img1.tif",
+      "image2_name": "uniform_00221_img2.tif",
+      "flow_name": "uniform_00221_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 221,
+      "sample_uid": "9e85151c910a95940aa04d71",
+      "domain": "uniform",
+      "image1_name": "uniform_00222_img1.tif",
+      "image2_name": "uniform_00222_img2.tif",
+      "flow_name": "uniform_00222_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 222,
+      "sample_uid": "ad88460224c59da49cf8af5a",
+      "domain": "uniform",
+      "image1_name": "uniform_00223_img1.tif",
+      "image2_name": "uniform_00223_img2.tif",
+      "flow_name": "uniform_00223_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 223,
+      "sample_uid": "e266f33445b6fd4a83d346ed",
+      "domain": "uniform",
+      "image1_name": "uniform_00224_img1.tif",
+      "image2_name": "uniform_00224_img2.tif",
+      "flow_name": "uniform_00224_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 224,
+      "sample_uid": "22d1c0f42d42ee24f1627568",
+      "domain": "uniform",
+      "image1_name": "uniform_00225_img1.tif",
+      "image2_name": "uniform_00225_img2.tif",
+      "flow_name": "uniform_00225_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 225,
+      "sample_uid": "d169554a17bfec58a0ae4349",
+      "domain": "uniform",
+      "image1_name": "uniform_00226_img1.tif",
+      "image2_name": "uniform_00226_img2.tif",
+      "flow_name": "uniform_00226_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 226,
+      "sample_uid": "5c88da3d66b072c1bf1cd3c9",
+      "domain": "uniform",
+      "image1_name": "uniform_00227_img1.tif",
+      "image2_name": "uniform_00227_img2.tif",
+      "flow_name": "uniform_00227_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 227,
+      "sample_uid": "6f15deb8bf30de121a5670fd",
+      "domain": "uniform",
+      "image1_name": "uniform_00228_img1.tif",
+      "image2_name": "uniform_00228_img2.tif",
+      "flow_name": "uniform_00228_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 228,
+      "sample_uid": "99ba4372bda0173bd759612d",
+      "domain": "uniform",
+      "image1_name": "uniform_00229_img1.tif",
+      "image2_name": "uniform_00229_img2.tif",
+      "flow_name": "uniform_00229_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 229,
+      "sample_uid": "01dd150aa1b45ed46dd0e5be",
+      "domain": "uniform",
+      "image1_name": "uniform_00230_img1.tif",
+      "image2_name": "uniform_00230_img2.tif",
+      "flow_name": "uniform_00230_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 230,
+      "sample_uid": "3758ae09333c587d8f0c443f",
+      "domain": "uniform",
+      "image1_name": "uniform_00231_img1.tif",
+      "image2_name": "uniform_00231_img2.tif",
+      "flow_name": "uniform_00231_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 231,
+      "sample_uid": "332f66543e394bc0651484f2",
+      "domain": "uniform",
+      "image1_name": "uniform_00232_img1.tif",
+      "image2_name": "uniform_00232_img2.tif",
+      "flow_name": "uniform_00232_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 232,
+      "sample_uid": "f4052bdc4e6fafb3ce0b22da",
+      "domain": "uniform",
+      "image1_name": "uniform_00233_img1.tif",
+      "image2_name": "uniform_00233_img2.tif",
+      "flow_name": "uniform_00233_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 233,
+      "sample_uid": "d33a667fab40404859505dda",
+      "domain": "uniform",
+      "image1_name": "uniform_00234_img1.tif",
+      "image2_name": "uniform_00234_img2.tif",
+      "flow_name": "uniform_00234_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 234,
+      "sample_uid": "c8e8374f7e8ceb4dd1020874",
+      "domain": "uniform",
+      "image1_name": "uniform_00235_img1.tif",
+      "image2_name": "uniform_00235_img2.tif",
+      "flow_name": "uniform_00235_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 235,
+      "sample_uid": "b859f97b83754e667a2f6ba2",
+      "domain": "uniform",
+      "image1_name": "uniform_00236_img1.tif",
+      "image2_name": "uniform_00236_img2.tif",
+      "flow_name": "uniform_00236_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 236,
+      "sample_uid": "eb452afa2a50bb49055d2272",
+      "domain": "uniform",
+      "image1_name": "uniform_00237_img1.tif",
+      "image2_name": "uniform_00237_img2.tif",
+      "flow_name": "uniform_00237_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 237,
+      "sample_uid": "34c552d3a5321205d17f053f",
+      "domain": "uniform",
+      "image1_name": "uniform_00238_img1.tif",
+      "image2_name": "uniform_00238_img2.tif",
+      "flow_name": "uniform_00238_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 238,
+      "sample_uid": "081c462988363e541899285a",
+      "domain": "uniform",
+      "image1_name": "uniform_00239_img1.tif",
+      "image2_name": "uniform_00239_img2.tif",
+      "flow_name": "uniform_00239_flow.flo",
+      "split": "test"
+    },
+    {
+      "index": 239,
+      "sample_uid": "c808abf31adefb4ef9424fab",
+      "domain": "uniform",
+      "image1_name": "uniform_00240_img1.tif",
+      "image2_name": "uniform_00240_img2.tif",
+      "flow_name": "uniform_00240_flow.flo",
+      "split": "test"
+    }
+  ],
+  "split_sha256": "8df722f56b32612d0273cc2b97a396693203fd5c43e024091f466848e68ebd28"
+}
